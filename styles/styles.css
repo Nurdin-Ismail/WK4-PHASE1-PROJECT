@@ -78,11 +78,7 @@ li:hover{
     padding: 10px;
 }
 .view{
-    display: flex;
-    justify-content: space-between;
-    background-color: aliceblue;
-
-    margin: 10px 70px;
+    margin: 10px 0px;
 }
 
 .list{
@@ -91,38 +87,15 @@ li:hover{
     margin: 10px 50px;
     box-shadow: #2980B9 0px 0px 1px 0px;
     margin-bottom: 300px;
-    padding: 10px 50px;
+    padding: 0px 50px;
     background-color: rgb(98,159,140);
     color: #210e33dc;
     
-    
-}
-/* #menu{
-    margin: 10px 70px;
-    margin-left: 30px ;
-    margin-right: 95px;
-    padding: 10px 10px;
-    
-    
-}
+    z-index: 1;
+    border-radius: 20px ;
 
-#menu:hover{
-    box-shadow: rgb(14, 15, 15) 0px 0px 1px 0px ;
-    
-
-}
-
-#menu:focus{
-    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
-} */
-
-.genre-bar{
-    background-color: rgb(163, 201, 235);
-
-    margin: 10px;
-    padding: 10px 30px;
-    align-self: center;
-    justify-content: center;
+    float: left;
+    position: fixed;
     
     
 }
@@ -134,7 +107,7 @@ li:hover{
 }
 
 main{
-    background-color: #210e33dc;
+    background-color: #210e33f1;
     border-radius: 10px;
     margin: 10px 0px;
     box-shadow: rgba(9, 10, 10, 0.37) 1px 0px 3px 1px;
@@ -142,8 +115,13 @@ main{
     flex-direction: column;
     position: relative;
     
-    height: 800px;
+    height: 1000px;
     width: 1300px;
+    color: #fff;
+    float: right;
+
+
+
 }
 #genre-tn{
     min-width: 400px;
@@ -163,6 +141,79 @@ main{
     text-align: center;
     
 }
+
+.genre-navbar {
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+    margin: 30px;
+     padding: 20px 70px;
+     
+
+    
+  
+}
+.genre-navbar button{
+    padding: 10px 90px;
+    margin: 0px 10px;
+    background-color: rgb(247,232,206);
+
+    
+}
+
+button{
+
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  --color: #373B44;
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover,
+button:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+button:active {
+  background: var(--color);
+  color: #fff;
+}
+
+#books-section{
+    background-color: #fff;
+    height: 700px;
+    width: 900px;
+    margin: 1px 200px;
+    justify-content: space-between;
+    padding: 30px 60px;
+}
+
+.hidden {
+    visibility: hidden;
+  }
+
+
+
+
 
 
 

@@ -28,7 +28,9 @@ let histor = document.querySelector('#histor')
 let selfhelp= document.querySelector('#selfhelp')
 let Arts = document.querySelector('#Arts')
 
-
+let newReleases = document.querySelector('#new-releases')
+let bestRated = document.querySelector('#best-rated')
+let supriseMe = document.querySelector('#suprise-me')
 
 fantasy.addEventListener('click', e => {
      handleGenres(e.target.innerText)
@@ -86,7 +88,15 @@ Arts.addEventListener('click', e => {
 })
 
 
-
+newReleases.addEventListener('click',() =>{
+  renderNewReleases()
+})
+bestRated.addEventListener('click',() =>{
+  renderBestRated()
+})
+supriseMe.addEventListener('click',() => {
+  renderSupriseMe()
+})
 
 
 
@@ -98,16 +108,18 @@ Arts.addEventListener('click', e => {
 
 function handleGenres(genre){
   let buug =[]
-   let genrenavbar = document.querySelector('#books-seection-navbar')
-  genrenavbar.innerHTML = ` `
-  genrenavbar.innerHTML =` 
-                <nav class="genre-navbar">
-                   <button id="new-releases">New Releases</button>
-                   <button id="best-rated">Best Rated</button>
-                   <button id="suprise-me">Suprise Me!</button>
-                </nav>
+  //  let genrenavbar = document.querySelector('#books-seection-navbar')
+  // genrenavbar.innerHTML = ` `
+  // genrenavbar.innerHTML =` 
+
+                
+                // <nav class="genre-navbar">
+                //    <button id="new-releases">New Releases</button>
+                //    <button id="best-rated">Best Rated</button>
+                //    <button id="suprise-me">Suprise Me!</button>
+                // </nav>
   
-  `
+  // `
 let subject = `${genre}`
 let genrename =document.querySelector('#genrename')
  genrename.innerHTML =`${genre}`
@@ -141,17 +153,18 @@ fetch(baseUrlo + endpoint + '?' + params)
      
   });
   console.log(buug.length)
+    buug.sort(function(b, a){
+              var keyA =  a.want_to_read_count ,
+                  keyB =  b.want_to_read_count ;
+              // Compare the 2 dates
+              if(keyA < keyB) return -1;
+              if(keyA > keyB) return 1;
+              return 0;
+            })
+
       console.log(buug)
       renderNewBooks(buug)
 })
- 
-// let newReleases = document.querySelector('#new-releases')
-// let bestRated = document.querySelector('#best-rated')
-// let supriseMe = document.querySelector('#suprise-me')
-
-// newReleases.addEventListener('click',renderNewBooks(buug))
-// bestRated.addEventListener('click',renderBestRated(genre))
-// supriseMe.addEventListener('click',renderSupriseMe(genre))
 }
 
 let firstbooksdiv = document.querySelector('#firstbooksdiv')
@@ -183,8 +196,9 @@ function renderNewBooks(booksArray){
                         </div>
                         <div>
                             <p><span style="font-weight: 700;">Title: </span>${book.title}</p>
-                            <br>
+                            
                             <p> <span style="font-weight: 700;">Author: </span>${book.author_name[0]}</p>
+
 
                         </div>
                   </div>
@@ -214,7 +228,7 @@ function renderNewBooks(booksArray){
                         </div>
                         <div>
                             <p><span style="font-weight: 700;">Title: </span>${book.title}</p>
-                            <br>
+                            
                             <p> <span style="font-weight: 700;">Author: </span>${book.author_name[0]}</p>
 
                         </div>
@@ -258,7 +272,7 @@ function renderNewBooks(booksArray){
                         </div>
                         <div>
                             <p><span style="font-weight: 700;">Title: </span>${book.title}</p>
-                            <br>
+                            
                             <p> <span style="font-weight: 700;">Author: </span>${book.author_name[0]}</p>
 
                         </div>
@@ -289,7 +303,7 @@ function renderNewBooks(booksArray){
                         </div>
                         <div>
                             <p><span style="font-weight: 700;">Title: </span>${book.title}</p>
-                            <br>
+                            
                             <p> <span style="font-weight: 700;">Author: </span>${book.author_name[0]}</p>
 
                         </div>
@@ -313,12 +327,90 @@ function renderNewBooks(booksArray){
   
 
 }
+//click events for the genrenavbar
 
-function renderBestRated(genre){
-  console.log('hello')
+
+newReleases.addEventListener('click',renderNewReleases())
+bestRated.addEventListener('click',renderBestRated())
+supriseMe.addEventListener('click',renderSupriseMe())
+
+////functions for genre navbar
+function renderNewReleases(){
+
+  if (genrename){
+    handleGenres(genrename.innerText)
+  }
+
 }
 
-function renderSupriseMe(genre){
+function renderBestRated(){
+
+  
+  let buug1 =[]
+  let baseUrlo = 'http://openlibrary.org';
+  let endpoint = '/search.json';
+
+  let language = 'eng'
+  let subject2 = `${genrename.innerText}`
+  let params2 = new URLSearchParams({
+        subject: subject2,
+        limit: 50,
+  
+        language: language,
+        first_publish_year: [`2010`]
+   });
+  
+    
+    
+
+
+    
+  if (genrename.innerText){
+fetch(baseUrlo + endpoint + '?' + params2)
+.then(res => {
+      if (res.ok) {
+        return res.json();
+      } else {
+        throw new Error('Error: ' + res.status);
+      }
+    
+    
+})
+.then(data =>{
+  console.log(data)
+  data.docs.forEach(book => {
+    if (book.cover_i ){
+      buug1.push(book)
+     
+    }
+     
+  });
+  console.log(buug1.length)
+    buug1.sort(function(b, a){
+              var keyA =  a.want_to_read_count ,
+                  keyB =  b.want_to_read_count ;
+              // Compare the 2 dates
+              if(keyA < keyB) return -1;
+              if(keyA > keyB) return 1;
+              return 0;
+            })
+
+      console.log(buug1)
+      renderNewBooks(buug1)
+
+})
+
+
+
+
+
+  }
+
+
+  
+}
+
+function renderSupriseMe(){
   console.log('hello')
 }
 function getCoverImageUrl(book){

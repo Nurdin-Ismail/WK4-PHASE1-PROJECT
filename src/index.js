@@ -1,9 +1,10 @@
-let baseUrlo = 'http://openlibrary.org';
+document.addEventListener('DOMContentLoaded', () => {
+  let baseUrlo = 'http://openlibrary.org';
 let endpoint = '/search.json';
 ; // Filter books with subject 'Fiction'
 let limit = 50; // Number of books to fetch
 let language = 'eng'
-let minReadCount = 2
+let minReadCount = 200
 
 
 // let params = new URLSearchParams({
@@ -35,72 +36,120 @@ supriseMe.className = "hidden"
 newReleases.className = "hidden"
 bestRated.className = "hidden"
 
+// renderHome()
+
+
+////Adding the loading feature:
+const loader = document.querySelector("#loading");
+
+// showing loading
+function displayLoading() {
+    loader.classList.add("display");
+    // to stop loading after some time
+    setTimeout(() => {
+        loader.classList.remove("display");
+    }, 10000);
+}
+///hides loader
+function hideLoading() {
+  loader.classList.remove("display");
+}
+
+
+
+
 
 home.addEventListener('click', () => {
   supriseMe.className = "hidden"
   newReleases.className = "hidden"
   bestRated.className = "hidden"
+
+  // renderHome()
   
 }
 )
 
 fantasy.addEventListener('click', e => {
      
-   newReleases.classList.remove('hidden')
-  bestRated.classList.remove('hidden')
-  supriseMe.classList.remove('hidden')
-  
-  handleGenres(e.target.innerText)
+  newReleases.classList.remove('hidden')
+ bestRated.classList.remove('hidden')
+ supriseMe.classList.remove('hidden')
+ 
+ handleGenres(e.target.innerText)
 
-
-
-  })
-
-scifi.addEventListener('click', e => {
-    handleGenres(e.target.innerText)
 
 
  })
- 
+
+scifi.addEventListener('click', e => {
+ newReleases.classList.remove('hidden')
+ bestRated.classList.remove('hidden')
+ supriseMe.classList.remove('hidden')
+   handleGenres(e.target.innerText)
+
+
+})
+
 humor.addEventListener('click', e => {
-  handleGenres(e.target.innerText)
+ newReleases.classList.remove('hidden')
+ bestRated.classList.remove('hidden')
+ supriseMe.classList.remove('hidden')
+ handleGenres(e.target.innerText)
 
 
 })
 
 romance.addEventListener('click', e => {
-  handleGenres(e.target.innerText)
+ newReleases.classList.remove('hidden')
+ bestRated.classList.remove('hidden')
+ supriseMe.classList.remove('hidden')
+ handleGenres(e.target.innerText)
 
 
 })
 
 
 crime.addEventListener('click', e => {
-  handleGenres(e.target.innerText)
+ newReleases.classList.remove('hidden')
+ bestRated.classList.remove('hidden')
+ supriseMe.classList.remove('hidden')
+ handleGenres(e.target.innerText)
 
 
 })
 
 bio.addEventListener('click', e => {
-  handleGenres(e.target.innerText)
+ newReleases.classList.remove('hidden')
+ bestRated.classList.remove('hidden')
+ supriseMe.classList.remove('hidden')
+ handleGenres(e.target.innerText)
 
 
 })
 
 histor.addEventListener('click', e => {
-  handleGenres(e.target.innerText)
+ newReleases.classList.remove('hidden')
+ bestRated.classList.remove('hidden')
+ supriseMe.classList.remove('hidden')
+ handleGenres(e.target.innerText)
 
 
 })
 
 selfhelp.addEventListener('click', e => {
-  handleGenres(e.target.innerText)
+ newReleases.classList.remove('hidden')
+ bestRated.classList.remove('hidden')
+ supriseMe.classList.remove('hidden')
+ handleGenres(e.target.innerText)
 
 
 })
 
 Arts.addEventListener('click', e => {
-  handleGenres(e.target.innerText)
+ newReleases.classList.remove('hidden')
+ bestRated.classList.remove('hidden')
+ supriseMe.classList.remove('hidden')
+ handleGenres(e.target.innerText)
 
 
 })
@@ -159,7 +208,7 @@ let params = new URLSearchParams({
   first_publish_year: [`2023`]
 });
   
-
+displayLoading()
 fetch(baseUrlo + endpoint + '?' + params)
 .then(res => {
       if (res.ok) {
@@ -171,6 +220,7 @@ fetch(baseUrlo + endpoint + '?' + params)
     
 })
 .then(data => {
+  hideLoading()
   
   data.docs.forEach(book => {
     if (book.cover_i ){
@@ -199,6 +249,10 @@ fetch(baseUrlo + endpoint + '?' + params)
 
 let firstbooksdiv = document.querySelector('#firstbooksdiv')
 let secondbooksdiv = document.querySelector('#secondbooksdiv')
+
+firstbooksdiv.addEventListener('change', () => {
+  console.log("CHANGE")
+})
 
 function renderNewBooks(booksArray){
   
@@ -384,10 +438,10 @@ function renderBestRated(){
   let subject2 = `${genrename.innerText}`
   let params2 = new URLSearchParams({
         subject: subject2,
-        limit: 50,
+        limit: 300,
   
         language: language,
-        first_publish_year: [`2010`]
+        
    });
   
     
@@ -396,6 +450,7 @@ function renderBestRated(){
 
     
   if (genrename.innerText){
+    displayLoading()
 fetch(baseUrlo + endpoint + '?' + params2)
 .then(res => {
       if (res.ok) {
@@ -407,6 +462,7 @@ fetch(baseUrlo + endpoint + '?' + params2)
     
 })
 .then(data =>{
+  hideLoading()
   console.log(data)
   data.docs.forEach(book => {
     if (book.cover_i ){
@@ -416,7 +472,9 @@ fetch(baseUrlo + endpoint + '?' + params2)
      
   });
   console.log(buug1.length)
-    buug1.sort(function(b, a){
+
+  let filteredBooks = buug1.filter(book => book.want_to_read_count > minReadCount)
+    filteredBooks.sort(function(b, a){
               var keyA =  a.want_to_read_count ,
                   keyB =  b.want_to_read_count ;
               // Compare the 2 dates
@@ -426,7 +484,7 @@ fetch(baseUrlo + endpoint + '?' + params2)
             })
 
       console.log(buug1)
-      renderNewBooks(buug1)
+      renderNewBooks(filteredBooks)
 
 })
 
@@ -462,6 +520,7 @@ function renderSupriseMe(){
 
     
   if (genrename.innerText){
+    displayLoading()
 fetch(baseUrlo + endpoint + '?' + params2)
 .then(res => {
       if (res.ok) {
@@ -473,8 +532,10 @@ fetch(baseUrlo + endpoint + '?' + params2)
     
 })
 .then(data =>{
+  hideLoading()
   console.log(data)
   data.docs.forEach(book => {
+    hidelo
     if (book.cover_i ){
       buug1.push(book)
      
@@ -504,11 +565,74 @@ fetch(baseUrlo + endpoint + '?' + params2)
 
 }
 
-function renderHome(){
+// function renderHome(){
+//   let buug1 =[]
+//   let baseUrlo = 'http://openlibrary.org';
+//   let endpoint = '/search.json';
 
-}
+//   let language = 'eng'
+//   let subject2 = ['Health And Wellness']
+//   let subject3 = ['Fantasy']
+//   let params2 = new URLSearchParams({
+//         subject: subject2,
+//         subject: subject3,
+//         limit: 50,
+        
+//         language: language,
+//         publish_date: ['2016']
+//    });
+  
+    
+    
+
+
+    
+
+// fetch(baseUrlo + endpoint + '?' + params2)
+// .then(res => {
+//       if (res.ok) {
+//         return res.json();
+//       } else {
+//         throw new Error('Error: ' + res.status);
+//       }
+    
+    
+// })
+// .then(data =>{
+//   console.log(data)
+//   data.docs.forEach(book => {
+//     if (book.cover_i ){
+//       buug1.push(book)
+     
+//     }
+     
+//   });
+//   console.log(buug1.length)
+//     buug1.sort(function(b, a){
+//               var keyA =  a.want_to_read_count ,
+//                   keyB =  b.want_to_read_count ;
+//               // Compare the 2 dates
+//               if(keyA < keyB) return -1;
+//               if(keyA > keyB) return 1;
+//               return 0;
+//             })
+
+//       console.log(buug1)
+//       renderNewBooks(buug1)
+
+
+
+
+
+
+
+//   })
+// }
+ 
+
 
 function getCoverImageUrl(book){
    const coverUrl = `https://covers.openlibrary.org/b/id/${book.cover_i}-M.jpg`
    return coverUrl
 }
+})

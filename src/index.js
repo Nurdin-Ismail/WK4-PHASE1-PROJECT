@@ -57,7 +57,7 @@ function displayLoading() {
     // to stop loading after some time
     setTimeout(() => {
         loader.classList.remove("display");
-    }, 10000);
+    }, 30000);
 }
 ///hides loader
 function hideLoading() {
@@ -350,14 +350,6 @@ function renderNewBooks(booksArray){
       
       `
 
-
-      
-      
-      
-
-
-
-
     })
 
     
@@ -393,15 +385,6 @@ function renderNewBooks(booksArray){
                   </div>
       
       `
-
-
-      
-      
-      
-
-
-
-
     })
 
     div2.forEach(book => {
@@ -424,22 +407,8 @@ function renderNewBooks(booksArray){
                   </div>
       
       `
-
-
-      
-      
-      
-
-
-
-
     })
-
-
   }
-  
-  
-
 }
 //click events for the genrenavbar
 
@@ -518,14 +487,7 @@ fetch(baseUrlo + endpoint + '?' + params2)
 
 })
 
-
-
-
-
-  }
-
-
-  
+  } 
 }
 
 function renderSupriseMe(){
@@ -565,7 +527,7 @@ fetch(baseUrlo + endpoint + '?' + params2)
   hideLoading()
   console.log(data)
   data.docs.forEach(book => {
-    hidelo
+    hideLoading()
     if (book.cover_i ){
       buug1.push(book)
      
@@ -587,78 +549,8 @@ fetch(baseUrlo + endpoint + '?' + params2)
 
 })
 
-
-
-
-
   }
-
 }
-
-// function renderHome(){
-//   let buug1 =[]
-//   let baseUrlo = 'http://openlibrary.org';
-//   let endpoint = '/search.json';
-
-//   let language = 'eng'
-//   let subject2 = ['Health And Wellness']
-//   let subject3 = ['Fantasy']
-//   let params2 = new URLSearchParams({
-//         subject: subject2,
-//         subject: subject3,
-//         limit: 50,
-        
-//         language: language,
-//         publish_date: ['2016']
-//    });
-  
-    
-    
-
-
-    
-
-// fetch(baseUrlo + endpoint + '?' + params2)
-// .then(res => {
-//       if (res.ok) {
-//         return res.json();
-//       } else {
-//         throw new Error('Error: ' + res.status);
-//       }
-    
-    
-// })
-// .then(data =>{
-//   console.log(data)
-//   data.docs.forEach(book => {
-//     if (book.cover_i ){
-//       buug1.push(book)
-     
-//     }
-     
-//   });
-//   console.log(buug1.length)
-//     buug1.sort(function(b, a){
-//               var keyA =  a.want_to_read_count ,
-//                   keyB =  b.want_to_read_count ;
-//               // Compare the 2 dates
-//               if(keyA < keyB) return -1;
-//               if(keyA > keyB) return 1;
-//               return 0;
-//             })
-
-//       console.log(buug1)
-//       renderNewBooks(buug1)
-
-
-
-
-
-
-
-//   })
-// }
- 
 
 
 function getCoverImageUrl(book){

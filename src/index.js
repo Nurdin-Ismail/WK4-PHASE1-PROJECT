@@ -1,5 +1,10 @@
+
+
 document.addEventListener('DOMContentLoaded', () => {
-  let baseUrlo = 'https://openlibrary.org';
+  
+  
+  ////URl INFO
+let baseUrlo = 'https://openlibrary.org';
 let endpoint = '/search.json';
 ; // Filter books with subject 'Fiction'
 let limit = 50; // Number of books to fetch
@@ -7,13 +12,7 @@ let language = 'eng'
 let minReadCount = 200
 
 
-// let params = new URLSearchParams({
-//   subject: subject,
-//   limit: limit,
-//   sort: '',
-//   language: language,
-//   first_publish_year: [`2010`]
-// });
+////SIdebar Selectors
 let home = document.querySelector("#home")
 
 let fantasy = document.querySelector('#fantasy')
@@ -28,7 +27,7 @@ let bio = document.querySelector('#bio')
 let histor = document.querySelector('#histor')
 let selfhelp= document.querySelector('#selfhelp')
 let Arts = document.querySelector('#Arts')
-
+  ////genre-navbar buttons selectors
 let newReleases = document.querySelector('#new-releases')
 let bestRated = document.querySelector('#best-rated')
 let supriseMe = document.querySelector('#suprise-me')
@@ -36,16 +35,15 @@ let supriseMe = document.querySelector('#suprise-me')
 let imag = document.querySelector('#pick')
 
 let genrename =document.querySelector('#genrename')
-
+ //// selectors for the divs where the books will be placed
 let firstbooksdiv = document.querySelector('#firstbooksdiv')
 let secondbooksdiv = document.querySelector('#secondbooksdiv')
 
-
+////genre navbar is to be hidden unless displayed after clicking a genre button
 supriseMe.className = "hidden"
 newReleases.className = "hidden"
 bestRated.className = "hidden"
 
-// renderHome()
 
 
 ////Adding the loading feature:
@@ -68,7 +66,7 @@ function hideLoading() {
 
 
 
-
+////Home button - adds the .hidden class to the genre-navbar/buttons and clears previous content when pressed
 
 home.addEventListener('click', () => {
   supriseMe.className = "hidden"
@@ -84,6 +82,8 @@ home.addEventListener('click', () => {
 }
 )
 
+
+///Event listners for all the buttons
 fantasy.addEventListener('click', e => {
  imag.className = "hidden"
   newReleases.classList.remove('hidden')
@@ -202,25 +202,12 @@ supriseMe.addEventListener('click',() => {
 
 
 
-
+///function to handle,filter and sort the data
 
 function handleGenres(genre){
+  //initializing the array where the books will be placed
   let buug =[]
-  //  let genrenavbar = document.querySelector('#books-seection-navbar')
-  // genrenavbar.innerHTML = ` `
-  // genrenavbar.innerHTML =` 
-
-                
-                // <nav class="genre-navbar">
-                //    <button id="new-releases">New Releases</button>
-                //    <button id="best-rated">Best Rated</button>
-                //    <button id="suprise-me">Suprise Me!</button>
-                // </nav>
-  
-  // `
  
-
-  ///Removing the hidden class from the genre-navbar anytime someone clicks on a genre on the side bar
   
 
 
@@ -277,18 +264,17 @@ fetch(baseUrlo + endpoint + '?' + params)
       renderNewBooks(buug)
 })
 }
+  
 
-
-
-firstbooksdiv.addEventListener('change', () => {
-  console.log("CHANGE")
-})
+/////function that renders the newest books in a genre when a genre is clicked 
 
 function renderNewBooks(booksArray){
   
   firstbooksdiv.innerHTML = ` `
   secondbooksdiv.innerHTML = ` `
   if(booksArray.length % 2 === 0 ){
+
+    ///making a new array, splitting it and placing the 2 new book arrays into separate divs
     let newBooksArray =[...booksArray]
     let newBooksArray2 = [...newBooksArray]
     let chunk = newBooksArray.length / 2 
@@ -410,7 +396,7 @@ function renderNewBooks(booksArray){
     })
   }
 }
-//click events for the genrenavbar
+//click events for the genrenavbar/buttons
 
 
 newReleases.addEventListener('click',renderNewReleases())
@@ -425,7 +411,7 @@ function renderNewReleases(){
   }
 
 }
-
+///function that fetches the best rated books in a genre and renders them
 function renderBestRated(){
 
   
@@ -471,12 +457,14 @@ fetch(baseUrlo + endpoint + '?' + params2)
      
   });
   console.log(buug1.length)
-
+////filtering based on want_to_read-Count
   let filteredBooks = buug1.filter(book => book.want_to_read_count > minReadCount)
+
+
     filteredBooks.sort(function(b, a){
               var keyA =  a.want_to_read_count ,
                   keyB =  b.want_to_read_count ;
-              // Compare the 2 dates
+              // Compare the books
               if(keyA < keyB) return -1;
               if(keyA > keyB) return 1;
               return 0;
@@ -533,7 +521,7 @@ fetch(baseUrlo + endpoint + '?' + params2)
     buug1.sort(function(b, a){
               var keyA =  a.want_to_read_count ,
                   keyB =  b.want_to_read_count ;
-              // Compare the 2 dates
+              // Compare the books
               if(keyA < keyB) return -1;
               if(keyA > keyB) return 1;
               return 0;

@@ -15,6 +15,7 @@ h3 ul li{
 }
 li{
     list-style-type: none;
+    
     color: rgb(5,9,29);
     padding-top: 0px;
     padding-bottom: 0px;
@@ -44,7 +45,7 @@ li{
  font-size: 1rem;
  line-height: 23px;
  outline: none;
- padding: 2px;
+ padding: 2px ;
  text-decoration: none;
  transition: all 235ms ease-in-out;
  border-bottom-left-radius: 15px 255px;
@@ -113,12 +114,16 @@ main{
     box-shadow: rgba(9, 10, 10, 0.37) 1px 0px 3px 1px;
     display: flex;
     flex-direction: column;
-    position: relative;
     
-    height: 1000px;
-    width: 1300px;
+    align-content: center;
+    align-items: center;
+    
     color: #fff;
     float: right;
+
+    min-width: 1300px;
+    
+    
 
 
 
@@ -200,11 +205,20 @@ button:active {
 
 #books-section{
     background-color: #fff;
-    height: 700px;
-    width: 900px;
-    margin: 1px 200px;
+    
+    margin: 10px 200px;
+    
+    padding: 0px 20px;
+
+    position: inherit;
+    display: flex;
     justify-content: space-between;
-    padding: 30px 60px;
+
+    border-radius: 30px;
+
+    
+
+    
 }
 
 .hidden {
@@ -214,6 +228,26 @@ button:active {
 
 
 
+.bookdiv{
+    background-color: rgb(249,249,249);
+    border-radius: 10px;
+    box-shadow: #373B44 0px 0px 1px 0px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    padding: 10px 20px;
 
+    margin: 10px;
+}
 
+.bookdiv p{
+    margin: 10px;
+    position: relative;
+    max-width: 250px;
+}
 
+.img{
+    max-height: 150px;
+    max-width: 100px;
+    min-height: 150px;
+    min-width: 100px;
+}

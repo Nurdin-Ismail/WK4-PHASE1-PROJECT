@@ -13,7 +13,7 @@ let minReadCount = 2
 //   language: language,
 //   first_publish_year: [`2010`]
 // });
-
+let home = document.querySelector("#home")
 
 let fantasy = document.querySelector('#fantasy')
 
@@ -31,9 +31,27 @@ let Arts = document.querySelector('#Arts')
 let newReleases = document.querySelector('#new-releases')
 let bestRated = document.querySelector('#best-rated')
 let supriseMe = document.querySelector('#suprise-me')
+supriseMe.className = "hidden"
+newReleases.className = "hidden"
+bestRated.className = "hidden"
+
+
+home.addEventListener('click', () => {
+  supriseMe.className = "hidden"
+  newReleases.className = "hidden"
+  bestRated.className = "hidden"
+  
+}
+)
 
 fantasy.addEventListener('click', e => {
-     handleGenres(e.target.innerText)
+     
+   newReleases.classList.remove('hidden')
+  bestRated.classList.remove('hidden')
+  supriseMe.classList.remove('hidden')
+  
+  handleGenres(e.target.innerText)
+
 
 
   })
@@ -120,6 +138,15 @@ function handleGenres(genre){
                 // </nav>
   
   // `
+ 
+
+  ///Removing the hidden class from the genre-navbar anytime someone clicks on a genre on the side bar
+  
+
+
+
+
+  ////fetch request
 let subject = `${genre}`
 let genrename =document.querySelector('#genrename')
  genrename.innerHTML =`${genre}`
@@ -153,6 +180,8 @@ fetch(baseUrlo + endpoint + '?' + params)
      
   });
   console.log(buug.length)
+
+  ////sorting books based on demand
     buug.sort(function(b, a){
               var keyA =  a.want_to_read_count ,
                   keyB =  b.want_to_read_count ;
@@ -163,6 +192,7 @@ fetch(baseUrlo + endpoint + '?' + params)
             })
 
       console.log(buug)
+      ////passing the filtered fetch data onto the rendering function.
       renderNewBooks(buug)
 })
 }

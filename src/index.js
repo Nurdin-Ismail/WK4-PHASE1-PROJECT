@@ -442,6 +442,66 @@ fetch(baseUrlo + endpoint + '?' + params2)
 
 function renderSupriseMe(){
   console.log('hello')
+  let buug1 =[]
+  let baseUrlo = 'http://openlibrary.org';
+  let endpoint = '/search.json';
+
+  let language = 'eng'
+  let subject2 = `${genrename.innerText}`
+  let params2 = new URLSearchParams({
+        subject: subject2,
+        limit: 50,
+        sort: 'random',
+        language: language,
+        
+   });
+  
+    
+    
+
+
+    
+  if (genrename.innerText){
+fetch(baseUrlo + endpoint + '?' + params2)
+.then(res => {
+      if (res.ok) {
+        return res.json();
+      } else {
+        throw new Error('Error: ' + res.status);
+      }
+    
+    
+})
+.then(data =>{
+  console.log(data)
+  data.docs.forEach(book => {
+    if (book.cover_i ){
+      buug1.push(book)
+     
+    }
+     
+  });
+  console.log(buug1.length)
+    buug1.sort(function(b, a){
+              var keyA =  a.want_to_read_count ,
+                  keyB =  b.want_to_read_count ;
+              // Compare the 2 dates
+              if(keyA < keyB) return -1;
+              if(keyA > keyB) return 1;
+              return 0;
+            })
+
+      console.log(buug1)
+      renderNewBooks(buug1)
+
+})
+
+
+
+
+
+  }
+
 }
 function getCoverImageUrl(book){
    const coverUrl = `https://covers.openlibrary.org/b/id/${book.cover_i}-M.jpg`

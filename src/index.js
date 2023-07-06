@@ -506,11 +506,6 @@ function renderSupriseMe(){
         
    });
   
-    
-    
-
-
-    
   if (genrename.innerText){
     displayLoading()
 fetch(baseUrlo + endpoint + '?' + params2)

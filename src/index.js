@@ -32,6 +32,15 @@ let Arts = document.querySelector('#Arts')
 let newReleases = document.querySelector('#new-releases')
 let bestRated = document.querySelector('#best-rated')
 let supriseMe = document.querySelector('#suprise-me')
+
+let imag = document.querySelector('#pick')
+
+let genrename =document.querySelector('#genrename')
+
+let firstbooksdiv = document.querySelector('#firstbooksdiv')
+let secondbooksdiv = document.querySelector('#secondbooksdiv')
+
+
 supriseMe.className = "hidden"
 newReleases.className = "hidden"
 bestRated.className = "hidden"
@@ -65,6 +74,10 @@ home.addEventListener('click', () => {
   supriseMe.className = "hidden"
   newReleases.className = "hidden"
   bestRated.className = "hidden"
+  imag.className = ''
+  genrename.innerHTML = "Pick a Genre"
+  firstbooksdiv.innerHTML = ''
+  secondbooksdiv.innerHTML = ''
 
   // renderHome()
   
@@ -72,7 +85,7 @@ home.addEventListener('click', () => {
 )
 
 fantasy.addEventListener('click', e => {
-     
+ imag.className = "hidden"
   newReleases.classList.remove('hidden')
  bestRated.classList.remove('hidden')
  supriseMe.classList.remove('hidden')
@@ -84,6 +97,8 @@ fantasy.addEventListener('click', e => {
  })
 
 scifi.addEventListener('click', e => {
+ imag.className = "hidden"
+
  newReleases.classList.remove('hidden')
  bestRated.classList.remove('hidden')
  supriseMe.classList.remove('hidden')
@@ -93,6 +108,8 @@ scifi.addEventListener('click', e => {
 })
 
 humor.addEventListener('click', e => {
+ imag.className = "hidden"
+
  newReleases.classList.remove('hidden')
  bestRated.classList.remove('hidden')
  supriseMe.classList.remove('hidden')
@@ -102,6 +119,8 @@ humor.addEventListener('click', e => {
 })
 
 romance.addEventListener('click', e => {
+ imag.className = "hidden"
+
  newReleases.classList.remove('hidden')
  bestRated.classList.remove('hidden')
  supriseMe.classList.remove('hidden')
@@ -112,6 +131,8 @@ romance.addEventListener('click', e => {
 
 
 crime.addEventListener('click', e => {
+ imag.className = "hidden"
+
  newReleases.classList.remove('hidden')
  bestRated.classList.remove('hidden')
  supriseMe.classList.remove('hidden')
@@ -121,6 +142,8 @@ crime.addEventListener('click', e => {
 })
 
 bio.addEventListener('click', e => {
+ imag.className = "hidden"
+
  newReleases.classList.remove('hidden')
  bestRated.classList.remove('hidden')
  supriseMe.classList.remove('hidden')
@@ -130,6 +153,8 @@ bio.addEventListener('click', e => {
 })
 
 histor.addEventListener('click', e => {
+ imag.className = "hidden"
+
  newReleases.classList.remove('hidden')
  bestRated.classList.remove('hidden')
  supriseMe.classList.remove('hidden')
@@ -139,6 +164,8 @@ histor.addEventListener('click', e => {
 })
 
 selfhelp.addEventListener('click', e => {
+ imag.className = "hidden"
+
  newReleases.classList.remove('hidden')
  bestRated.classList.remove('hidden')
  supriseMe.classList.remove('hidden')
@@ -148,6 +175,8 @@ selfhelp.addEventListener('click', e => {
 })
 
 Arts.addEventListener('click', e => {
+ imag.className = "hidden"
+
  newReleases.classList.remove('hidden')
  bestRated.classList.remove('hidden')
  supriseMe.classList.remove('hidden')
@@ -199,7 +228,7 @@ function handleGenres(genre){
 
   ////fetch request
 let subject = `${genre}`
-let genrename =document.querySelector('#genrename')
+
  genrename.innerHTML =`${genre}`
 
 let params = new URLSearchParams({
@@ -249,8 +278,7 @@ fetch(baseUrlo + endpoint + '?' + params)
 })
 }
 
-let firstbooksdiv = document.querySelector('#firstbooksdiv')
-let secondbooksdiv = document.querySelector('#secondbooksdiv')
+
 
 firstbooksdiv.addEventListener('change', () => {
   console.log("CHANGE")

@@ -503,6 +503,11 @@ fetch(baseUrlo + endpoint + '?' + params2)
   }
 
 }
+
+function renderHome(){
+
+}
+
 function getCoverImageUrl(book){
    const coverUrl = `https://covers.openlibrary.org/b/id/${book.cover_i}-M.jpg`
    return coverUrl

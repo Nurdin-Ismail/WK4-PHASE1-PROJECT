@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  let baseUrlo = 'http://openlibrary.org';
+  let baseUrlo = 'https://openlibrary.org';
 let endpoint = '/search.json';
 ; // Filter books with subject 'Fiction'
 let limit = 50; // Number of books to fetch
@@ -430,7 +430,7 @@ function renderBestRated(){
 
   
   let buug1 =[]
-  let baseUrlo = 'http://openlibrary.org';
+  let baseUrlo = 'https://openlibrary.org';
   let endpoint = '/search.json';
 
   let language = 'eng'
@@ -493,7 +493,7 @@ fetch(baseUrlo + endpoint + '?' + params2)
 function renderSupriseMe(){
   console.log('hello')
   let buug1 =[]
-  let baseUrlo = 'http://openlibrary.org';
+  let baseUrlo = 'https://openlibrary.org';
   let endpoint = '/search.json';
 
   let language = 'eng'

@@ -31,7 +31,7 @@ Follow good coding practices. Keep your code DRY (Do not repeat yourself) by uti
 
 2. Only a single HTMl file
 
-3. Oly 2 event listeners, because the entire project is based off of click events. 
+3. Oly 2 event listeners, because the entire project is based off of click events and I'm unable to make post and patch requests to the publick api.
 
 4. Rating for Books
 

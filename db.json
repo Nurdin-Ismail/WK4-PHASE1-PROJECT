@@ -161,6 +161,2057 @@
       "url": "https://www.goodreads.com/book/show/50496918-spoiler-alert?from_choice=true"
     }
   ],
-  "Action": 
+  "Fantasy": [
+    {
+        "key": "/works/OL34098435W",
+        "type": "work",
+        "seed": [
+            "/books/OL46772897M",
+            "/books/OL46725601M",
+            "/books/OL46690259M",
+            "/books/OL46690253M",
+            "/books/OL46284524M",
+            "/books/OL46180632M",
+            "/books/OL46180620M",
+            "/works/OL34098435W",
+            "/subjects/fiction_romance_general",
+            "/subjects/fiction_fantasy_general",
+            "/authors/OL7173196A"
+        ],
+        "title": "Fire in the Flesh",
+        "title_suggest": "Fire in the Flesh",
+        "title_sort": "Fire in the Flesh",
+        "edition_count": 7,
+        "edition_key": [
+            "OL46772897M",
+            "OL46725601M",
+            "OL46690259M",
+            "OL46690253M",
+            "OL46284524M",
+            "OL46180632M",
+            "OL46180620M"
+        ],
+        "publish_date": [
+            "2023"
+        ],
+        "publish_year": [
+            2023
+        ],
+        "first_publish_year": 2023,
+        "number_of_pages_median": 600,
+        "isbn": [
+            "195756864X",
+            "1957568615",
+            "9781957568553",
+            "1957568631",
+            "9781957568621",
+            "9781957568614",
+            "1957568496",
+            "1957568550",
+            "9781957568492",
+            "1957568623",
+            "9781957568645",
+            "1957568569",
+            "9781957568560",
+            "9781957568638"
+        ],
+        "last_modified_i": 1680563600,
+        "ebook_count_i": 0,
+        "ebook_access": "no_ebook",
+        "has_fulltext": false,
+        "public_scan_b": false,
+        "readinglog_count": 1,
+        "want_to_read_count": 1,
+        "currently_reading_count": 0,
+        "already_read_count": 0,
+        "cover_edition_key": "OL46284524M",
+        "cover_i": 13818485,
+        "publisher": [
+            "Blue Box Press",
+            "Kindle Direct Publishing"
+        ],
+        "language": [
+            "eng"
+        ],
+        "author_key": [
+            "OL7173196A"
+        ],
+        "author_name": [
+            "Jennifer L. Armentrout"
+        ],
+        "author_alternative_name": [
+            "J. Lynn"
+        ],
+        "subject": [
+            "Fiction, romance, general",
+            "Fiction, fantasy, general"
+        ],
+        "publisher_facet": [
+            "Blue Box Press",
+            "Kindle Direct Publishing"
+        ],
+        "subject_facet": [
+            "Fiction, fantasy, general",
+            "Fiction, romance, general"
+        ],
+        "_version_": 1762198663025655800,
+        "author_facet": [
+            "OL7173196A Jennifer L. Armentrout"
+        ],
+        "subject_key": [
+            "fiction_fantasy_general",
+            "fiction_romance_general"
+        ]
+    },
+    {
+        "key": "/works/OL27821353W",
+        "type": "work",
+        "seed": [
+            "/books/OL48274303M",
+            "/books/OL47128077M",
+            "/books/OL40329314M",
+            "/books/OL38805219M",
+            "/books/OL38801679M",
+            "/books/OL38016588M",
+            "/works/OL27821353W",
+            "/subjects/fiction_fantasy_action_&_adventure",
+            "/subjects/fiction_fantasy_epic",
+            "/subjects/fiction_friendship",
+            "/authors/OL10383304A"
+        ],
+        "title": "Godkiller",
+        "title_sort": "Godkiller",
+        "title_suggest": "Godkiller",
+        "edition_count": 6,
+        "edition_key": [
+            "OL48274303M",
+            "OL47128077M",
+            "OL40329314M",
+            "OL38805219M",
+            "OL38801679M",
+            "OL38016588M"
+        ],
+        "publish_date": [
+            "Sep 12, 2023",
+            "2023"
+        ],
+        "publish_year": [
+            2023
+        ],
+        "first_publish_year": 2023,
+        "number_of_pages_median": 304,
+        "isbn": [
+            "9780008616960",
+            "9780063348288",
+            "9780008521462",
+            "0008521484",
+            "0008521468",
+            "9780008521486",
+            "0063348284",
+            "0008616965",
+            "9780008521479",
+            "0063348276",
+            "9780063348271",
+            "0008521476"
+        ],
+        "last_modified_i": 1687004983,
+        "ebook_count_i": 0,
+        "ebook_access": "no_ebook",
+        "has_fulltext": false,
+        "public_scan_b": false,
+        "readinglog_count": 2,
+        "want_to_read_count": 2,
+        "currently_reading_count": 0,
+        "already_read_count": 0,
+        "cover_edition_key": "OL47128077M",
+        "cover_i": 13518204,
+        "publisher": [
+            "Harper Voyager",
+            "HarperCollins Publishers"
+        ],
+        "language": [
+            "eng"
+        ],
+        "author_key": [
+            "OL10383304A"
+        ],
+        "author_name": [
+            "Hannah Kaner"
+        ],
+        "subject": [
+            "Fiction, fantasy, action & adventure",
+            "Fiction, fantasy, epic",
+            "Fiction, friendship"
+        ],
+        "publisher_facet": [
+            "Harper Voyager",
+            "HarperCollins Publishers"
+        ],
+        "subject_facet": [
+            "Fiction, fantasy, action & adventure",
+            "Fiction, fantasy, epic",
+            "Fiction, friendship"
+        ],
+        "_version_": 1769206704167190500,
+        "author_facet": [
+            "OL10383304A Hannah Kaner"
+        ],
+        "subject_key": [
+            "fiction_fantasy_action__adventure",
+            "fiction_fantasy_epic",
+            "fiction_friendship"
+        ]
+    },
+    {
+        "key": "/works/OL34361610W",
+        "type": "work",
+        "seed": [
+            "/books/OL48245964M",
+            "/books/OL46833838M",
+            "/books/OL46656772M",
+            "/books/OL46630111M",
+            "/books/OL46622506M",
+            "/books/OL46615720M",
+            "/works/OL34361610W",
+            "/subjects/fiction_fantasy_general",
+            "/subjects/fiction_general",
+            "/subjects/place:peebles_(borders_region_scotland)",
+            "/authors/OL12434269A"
+        ],
+        "title": "The Writer and the Librarian",
+        "title_sort": "The Writer and the Librarian",
+        "title_suggest": "The Writer and the Librarian",
+        "edition_count": 6,
+        "edition_key": [
+            "OL48245964M",
+            "OL46833838M",
+            "OL46656772M",
+            "OL46630111M",
+            "OL46622506M",
+            "OL46615720M"
+        ],
+        "publish_date": [
+            "2023"
+        ],
+        "publish_year": [
+            2023
+        ],
+        "first_publish_year": 2023,
+        "number_of_pages_median": 326,
+        "isbn": [
+            "9798987563915",
+            "9798987563939",
+            "9798987563953",
+            "9798987563908",
+            "9798987563946",
+            "9798987563922"
+        ],
+        "last_modified_i": 1686999427,
+        "ebook_count_i": 0,
+        "ebook_access": "no_ebook",
+        "has_fulltext": false,
+        "public_scan_b": false,
+        "readinglog_count": 0,
+        "want_to_read_count": 0,
+        "currently_reading_count": 0,
+        "already_read_count": 0,
+        "cover_edition_key": "OL46622506M",
+        "cover_i": 14304948,
+        "first_sentence": [
+            "There was a secret meeting tonight, and I had to be there."
+        ],
+        "publisher": [
+            "Dark Rose Publishing Company",
+            "R.L. Geer-Robbins Publishing Company"
+        ],
+        "language": [
+            "eng"
+        ],
+        "author_key": [
+            "OL12434269A"
+        ],
+        "author_name": [
+            "Rose Geer-Robbins"
+        ],
+        "place": [
+            "Peebles (Borders Region, Scotland)"
+        ],
+        "subject": [
+            "Fiction, fantasy, general",
+            "Fiction, general"
+        ],
+        "publisher_facet": [
+            "Dark Rose Publishing Company",
+            "R.L. Geer-Robbins Publishing Company"
+        ],
+        "place_key": [
+            "peebles_(borders_region_scotland)"
+        ],
+        "subject_facet": [
+            "Fiction, fantasy, general",
+            "Fiction, general"
+        ],
+        "_version_": 1769205831511834600,
+        "place_facet": [
+            "Peebles (Borders Region, Scotland)"
+        ],
+        "author_facet": [
+            "OL12434269A Rose Geer-Robbins"
+        ],
+        "subject_key": [
+            "fiction_fantasy_general",
+            "fiction_general"
+        ]
+    },
+    {
+        "key": "/works/OL34050635W",
+        "type": "work",
+        "seed": [
+            "/books/OL48197056M",
+            "/books/OL47133613M",
+            "/books/OL46574271M",
+            "/books/OL46114376M",
+            "/books/OL46109451M",
+            "/works/OL34050635W",
+            "/subjects/fiction_fantasy_general",
+            "/authors/OL1394865A"
+        ],
+        "title": "Yumi and the Nightmare Painter",
+        "title_sort": "Yumi and the Nightmare Painter",
+        "title_suggest": "Yumi and the Nightmare Painter",
+        "edition_count": 5,
+        "edition_key": [
+            "OL48197056M",
+            "OL47133613M",
+            "OL46574271M",
+            "OL46114376M",
+            "OL46109451M"
+        ],
+        "publish_date": [
+            "2023"
+        ],
+        "publish_year": [
+            2023
+        ],
+        "first_publish_year": 2023,
+        "isbn": [
+            "1938570405",
+            "9781399613439",
+            "1399613448",
+            "9781938570377",
+            "1938570375",
+            "139961343X",
+            "9781399613446",
+            "9781938570407"
+        ],
+        "last_modified_i": 1687097752,
+        "ebook_count_i": 0,
+        "ebook_access": "no_ebook",
+        "has_fulltext": false,
+        "public_scan_b": false,
+        "readinglog_count": 0,
+        "want_to_read_count": 0,
+        "currently_reading_count": 0,
+        "already_read_count": 0,
+        "cover_edition_key": "OL47133613M",
+        "cover_i": 13528201,
+        "publisher": [
+            "Dragonsteel Entertainment, LLC",
+            "Dragonsteel",
+            "Orion Publishing Group, Limited"
+        ],
+        "language": [
+            "eng"
+        ],
+        "author_key": [
+            "OL1394865A"
+        ],
+        "author_name": [
+            "Brandon Sanderson"
+        ],
+        "author_alternative_name": [
+            "BRANDON SANDERSON",
+            "Sanderson  Brandon"
+        ],
+        "subject": [
+            "Fiction, fantasy, general"
+        ],
+        "publisher_facet": [
+            "Dragonsteel",
+            "Dragonsteel Entertainment, LLC",
+            "Orion Publishing Group, Limited"
+        ],
+        "subject_facet": [
+            "Fiction, fantasy, general"
+        ],
+        "_version_": 1769219391086395400,
+        "author_facet": [
+            "OL1394865A Brandon Sanderson"
+        ],
+        "subject_key": [
+            "fiction_fantasy_general"
+        ]
+    },
+    {
+        "key": "/works/OL34434731W",
+        "type": "work",
+        "seed": [
+            "/books/OL48386997M",
+            "/books/OL47394953M",
+            "/books/OL46756961M",
+            "/books/OL46744822M",
+            "/books/OL46709173M",
+            "/works/OL34434731W",
+            "/subjects/fiction_fantasy_general",
+            "/subjects/fiction_romance_general",
+            "/authors/OL12457829A"
+        ],
+        "title": "The Lost God",
+        "title_sort": "The Lost God",
+        "title_suggest": "The Lost God",
+        "edition_count": 5,
+        "edition_key": [
+            "OL48386997M",
+            "OL47394953M",
+            "OL46756961M",
+            "OL46744822M",
+            "OL46709173M"
+        ],
+        "publish_date": [
+            "Mar 31, 2023",
+            "2023"
+        ],
+        "publish_year": [
+            2023
+        ],
+        "first_publish_year": 2023,
+        "number_of_pages_median": 480,
+        "isbn": [
+            "9781960416049",
+            "9781960416032",
+            "1960416006",
+            "1960416049",
+            "1960416030",
+            "9781960416018",
+            "1960416022",
+            "1960416014",
+            "9781960416001",
+            "9781960416025"
+        ],
+        "last_modified_i": 1687029482,
+        "ebook_count_i": 0,
+        "ebook_access": "no_ebook",
+        "has_fulltext": false,
+        "public_scan_b": false,
+        "readinglog_count": 0,
+        "want_to_read_count": 0,
+        "currently_reading_count": 0,
+        "already_read_count": 0,
+        "cover_edition_key": "OL47394953M",
+        "cover_i": 13991640,
+        "publisher": [
+            "Sheila Masterson",
+            "Masterson, Sheila"
+        ],
+        "language": [
+            "eng"
+        ],
+        "author_key": [
+            "OL12457829A"
+        ],
+        "author_name": [
+            "Sheila Masterson"
+        ],
+        "subject": [
+            "Fiction, fantasy, general",
+            "Fiction, romance, general"
+        ],
+        "publisher_facet": [
+            "Masterson, Sheila",
+            "Sheila Masterson"
+        ],
+        "subject_facet": [
+            "Fiction, fantasy, general",
+            "Fiction, romance, general"
+        ],
+        "_version_": 1769214161056694300,
+        "author_facet": [
+            "OL12457829A Sheila Masterson"
+        ],
+        "subject_key": [
+            "fiction_fantasy_general",
+            "fiction_romance_general"
+        ]
+    },
+    {
+        "key": "/works/OL28687656W",
+        "type": "work",
+        "seed": [
+            "/books/OL42777082M",
+            "/books/OL46578118M",
+            "/books/OL46069775M",
+            "/books/OL46007966M",
+            "/books/OL39375128M",
+            "/works/OL28687656W",
+            "/subjects/fiction",
+            "/subjects/fantasy",
+            "/subjects/general",
+            "/subjects/fiction_fantasy_general",
+            "/subjects/nyt:hardcover-fiction=2023-04-23",
+            "/subjects/new_york_times_bestseller",
+            "/authors/OL1394865A"
+        ],
+        "title": "Tress of the Emerald Sea",
+        "title_sort": "Tress of the Emerald Sea",
+        "title_suggest": "Tress of the Emerald Sea",
+        "edition_count": 5,
+        "edition_key": [
+            "OL42777082M",
+            "OL46578118M",
+            "OL46069775M",
+            "OL46007966M",
+            "OL39375128M"
+        ],
+        "publish_date": [
+            "2023"
+        ],
+        "publish_year": [
+            2023
+        ],
+        "first_publish_year": 2023,
+        "number_of_pages_median": 443,
+        "publish_place": [
+            "New York"
+        ],
+        "isbn": [
+            "1938570324",
+            "1399613383",
+            "9781250899651",
+            "1938570340",
+            "1399613375",
+            "9781938570322",
+            "9781399613378",
+            "9781938570346",
+            "9781399613385",
+            "1250899656"
+        ],
+        "last_modified_i": 1686669970,
+        "ebook_count_i": 0,
+        "ebook_access": "no_ebook",
+        "has_fulltext": false,
+        "public_scan_b": false,
+        "ratings_average": 4.5,
+        "ratings_sortable": 2.9709656,
+        "ratings_count": 4,
+        "ratings_count_1": 0,
+        "ratings_count_2": 0,
+        "ratings_count_3": 0,
+        "ratings_count_4": 2,
+        "ratings_count_5": 2,
+        "readinglog_count": 36,
+        "want_to_read_count": 29,
+        "currently_reading_count": 1,
+        "already_read_count": 6,
+        "cover_edition_key": "OL46007966M",
+        "cover_i": 13143232,
+        "publisher": [
+            "Dragonsteel Entertainment, LLC",
+            "Orion Publishing Group, Limited",
+            "Doherty Associates, LLC, Tom"
+        ],
+        "language": [
+            "eng"
+        ],
+        "author_key": [
+            "OL1394865A"
+        ],
+        "author_name": [
+            "Brandon Sanderson"
+        ],
+        "author_alternative_name": [
+            "Sanderson  Brandon",
+            "BRANDON SANDERSON"
+        ],
+        "subject": [
+            "fiction",
+            "fantasy",
+            "general",
+            "Fiction, fantasy, general",
+            "nyt:hardcover-fiction=2023-04-23",
+            "New York Times bestseller"
+        ],
+        "publisher_facet": [
+            "Doherty Associates, LLC, Tom",
+            "Dragonsteel Entertainment, LLC",
+            "Orion Publishing Group, Limited"
+        ],
+        "subject_facet": [
+            "Fiction, fantasy, general",
+            "New York Times bestseller",
+            "fantasy",
+            "fiction",
+            "general",
+            "nyt:hardcover-fiction=2023-04-23"
+        ],
+        "_version_": 1768601657756614700,
+        "author_facet": [
+            "OL1394865A Brandon Sanderson"
+        ],
+        "subject_key": [
+            "fantasy",
+            "fiction",
+            "fiction_fantasy_general",
+            "general",
+            "new_york_times_bestseller",
+            "nythardcover-fiction2023-04-23"
+        ]
+    },
+    {
+        "key": "/works/OL26725310W",
+        "type": "work",
+        "seed": [
+            "/books/OL36182099M",
+            "/books/OL36182101M",
+            "/books/OL36182098M",
+            "/books/OL36182100M",
+            "/works/OL26725310W",
+            "/subjects/fiction_fantasy_general",
+            "/authors/OL9157912A"
+        ],
+        "title": "Hunterland",
+        "title_suggest": "Hunterland",
+        "title_sort": "Hunterland",
+        "edition_count": 4,
+        "edition_key": [
+            "OL36182099M",
+            "OL36182101M",
+            "OL36182098M",
+            "OL36182100M"
+        ],
+        "publish_date": [
+            "2023",
+            "2024"
+        ],
+        "publish_year": [
+            2023,
+            2024
+        ],
+        "first_publish_year": 2023,
+        "number_of_pages_median": 408,
+        "isbn": [
+            "9780744307375",
+            "0744307368",
+            "074430735X",
+            "9780744307351",
+            "9780744307368",
+            "0744307341",
+            "0744307376",
+            "9780744307344"
+        ],
+        "last_modified_i": 1676048492,
+        "ebook_count_i": 0,
+        "ebook_access": "no_ebook",
+        "has_fulltext": false,
+        "public_scan_b": false,
+        "cover_edition_key": "OL36182099M",
+        "cover_i": 13283068,
+        "publisher": [
+            "CamCat Publishing"
+        ],
+        "language": [
+            "eng"
+        ],
+        "author_key": [
+            "OL9157912A"
+        ],
+        "author_name": [
+            "Dana Claire"
+        ],
+        "subject": [
+            "Fiction, fantasy, general"
+        ],
+        "publisher_facet": [
+            "CamCat Publishing"
+        ],
+        "subject_facet": [
+            "Fiction, fantasy, general"
+        ],
+        "_version_": 1759774528230129700,
+        "author_facet": [
+            "OL9157912A Dana Claire"
+        ],
+        "subject_key": [
+            "fiction_fantasy_general"
+        ]
+    },
+    {
+        "key": "/works/OL27851747W",
+        "type": "work",
+        "seed": [
+            "/books/OL38066652M",
+            "/books/OL38066651M",
+            "/books/OL38066649M",
+            "/books/OL38066650M",
+            "/works/OL27851747W",
+            "/subjects/fiction_fantasy_general",
+            "/authors/OL10393599A"
+        ],
+        "title": "Our Vengeful Souls",
+        "title_suggest": "Our Vengeful Souls",
+        "title_sort": "Our Vengeful Souls",
+        "edition_count": 4,
+        "edition_key": [
+            "OL38066652M",
+            "OL38066651M",
+            "OL38066649M",
+            "OL38066650M"
+        ],
+        "publish_date": [
+            "2023",
+            "2024"
+        ],
+        "publish_year": [
+            2023,
+            2024
+        ],
+        "first_publish_year": 2023,
+        "number_of_pages_median": 304,
+        "isbn": [
+            "0744308976",
+            "9780744308914",
+            "0744308933",
+            "9780744308976",
+            "9780744308952",
+            "9780744308938",
+            "074430895X",
+            "0744308917"
+        ],
+        "last_modified_i": 1680323236,
+        "ebook_count_i": 0,
+        "ebook_access": "no_ebook",
+        "has_fulltext": false,
+        "public_scan_b": false,
+        "readinglog_count": 1,
+        "want_to_read_count": 1,
+        "currently_reading_count": 0,
+        "already_read_count": 0,
+        "cover_edition_key": "OL38066651M",
+        "cover_i": 13784464,
+        "publisher": [
+            "CamCat Books",
+            "CamCat Publishing"
+        ],
+        "language": [
+            "eng"
+        ],
+        "author_key": [
+            "OL10393599A"
+        ],
+        "author_name": [
+            "Kristi McManus"
+        ],
+        "subject": [
+            "Fiction, fantasy, general"
+        ],
+        "publisher_facet": [
+            "CamCat Books",
+            "CamCat Publishing"
+        ],
+        "subject_facet": [
+            "Fiction, fantasy, general"
+        ],
+        "_version_": 1761946621422076000,
+        "author_facet": [
+            "OL10393599A Kristi McManus"
+        ],
+        "subject_key": [
+            "fiction_fantasy_general"
+        ]
+    },
+    {
+        "key": "/works/OL27588793W",
+        "type": "work",
+        "seed": [
+            "/books/OL37622008M",
+            "/books/OL37622007M",
+            "/books/OL37622006M",
+            "/books/OL37622009M",
+            "/works/OL27588793W",
+            "/subjects/fiction_fantasy_general",
+            "/authors/OL7903225A"
+        ],
+        "title": "Immortal Detective",
+        "title_suggest": "Immortal Detective",
+        "title_sort": "Immortal Detective",
+        "edition_count": 4,
+        "edition_key": [
+            "OL37622008M",
+            "OL37622007M",
+            "OL37622006M",
+            "OL37622009M"
+        ],
+        "publish_date": [
+            "2024",
+            "2023"
+        ],
+        "publish_year": [
+            2024,
+            2023
+        ],
+        "first_publish_year": 2023,
+        "number_of_pages_median": 405,
+        "isbn": [
+            "9780744308037",
+            "9780744308020",
+            "0744308011",
+            "074430802X",
+            "0744308038",
+            "9780744308068",
+            "9780744308013",
+            "0744308062"
+        ],
+        "last_modified_i": 1679255258,
+        "ebook_count_i": 0,
+        "ebook_access": "no_ebook",
+        "has_fulltext": false,
+        "public_scan_b": false,
+        "readinglog_count": 0,
+        "want_to_read_count": 0,
+        "currently_reading_count": 0,
+        "already_read_count": 0,
+        "cover_edition_key": "OL37622007M",
+        "cover_i": 13331153,
+        "publisher": [
+            "CamCat Books",
+            "CamCat Publishing"
+        ],
+        "language": [
+            "eng"
+        ],
+        "author_key": [
+            "OL7903225A"
+        ],
+        "author_name": [
+            "D. B. Woodling"
+        ],
+        "subject": [
+            "Fiction, fantasy, general"
+        ],
+        "publisher_facet": [
+            "CamCat Books",
+            "CamCat Publishing"
+        ],
+        "subject_facet": [
+            "Fiction, fantasy, general"
+        ],
+        "_version_": 1760826763254956000,
+        "author_facet": [
+            "OL7903225A D. B. Woodling"
+        ],
+        "subject_key": [
+            "fiction_fantasy_general"
+        ]
+    },
+    {
+        "key": "/works/OL27894919W",
+        "type": "work",
+        "seed": [
+            "/books/OL47292507M",
+            "/books/OL38815268M",
+            "/books/OL38125397M",
+            "/books/OL38125366M",
+            "/works/OL27894919W",
+            "/subjects/fiction_fantasy_epic",
+            "/subjects/fiction_lgbtq+_bisexual",
+            "/subjects/fiction_fantasy_military",
+            "/authors/OL10410466A"
+        ],
+        "title": "Daughters of Izdihar",
+        "title_sort": "Daughters of Izdihar",
+        "title_suggest": "Daughters of Izdihar",
+        "edition_count": 4,
+        "edition_key": [
+            "OL47292507M",
+            "OL38815268M",
+            "OL38125397M",
+            "OL38125366M"
+        ],
+        "publish_date": [
+            "Nov 21, 2023",
+            "2023"
+        ],
+        "publish_year": [
+            2023
+        ],
+        "first_publish_year": 2023,
+        "number_of_pages_median": 384,
+        "isbn": [
+            "0063114763",
+            "9780063114777",
+            "9780356520476",
+            "0063114771",
+            "9780063114760",
+            "9780063114746",
+            "0063114747",
+            "0356520471"
+        ],
+        "last_modified_i": 1686996681,
+        "ebook_count_i": 0,
+        "ebook_access": "no_ebook",
+        "has_fulltext": false,
+        "public_scan_b": false,
+        "ratings_average": 2,
+        "ratings_sortable": 1.9953405,
+        "ratings_count": 1,
+        "ratings_count_1": 0,
+        "ratings_count_2": 1,
+        "ratings_count_3": 0,
+        "ratings_count_4": 0,
+        "ratings_count_5": 0,
+        "readinglog_count": 3,
+        "want_to_read_count": 2,
+        "currently_reading_count": 0,
+        "already_read_count": 1,
+        "cover_edition_key": "OL38125366M",
+        "cover_i": 13121040,
+        "publisher": [
+            "Harper Voyager",
+            "HarperCollins Publishers",
+            "Little, Brown Book Group Limited"
+        ],
+        "language": [
+            "eng"
+        ],
+        "author_key": [
+            "OL10410466A"
+        ],
+        "author_name": [
+            "Hadeer Elsbai"
+        ],
+        "subject": [
+            "Fiction, fantasy, epic",
+            "Fiction, lgbtq+, bisexual",
+            "Fiction, fantasy, military"
+        ],
+        "publisher_facet": [
+            "Harper Voyager",
+            "HarperCollins Publishers",
+            "Little, Brown Book Group Limited"
+        ],
+        "subject_facet": [
+            "Fiction, fantasy, epic",
+            "Fiction, fantasy, military",
+            "Fiction, lgbtq+, bisexual"
+        ],
+        "_version_": 1769205324912263200,
+        "author_facet": [
+            "OL10410466A Hadeer Elsbai"
+        ],
+        "subject_key": [
+            "fiction_fantasy_epic",
+            "fiction_fantasy_military",
+            "fiction_lgbtq_bisexual"
+        ]
+    },
+    {
+        "key": "/works/OL29200370W",
+        "type": "work",
+        "seed": [
+            "/books/OL40163314M",
+            "/books/OL46494948M",
+            "/books/OL42767180M",
+            "/books/OL46674029M",
+            "/works/OL29200370W",
+            "/subjects/fiction_romance_general",
+            "/subjects/fiction_fantasy_general",
+            "/authors/OL7296452A"
+        ],
+        "title": "Bend Her",
+        "title_suggest": "Bend Her",
+        "title_sort": "Bend Her",
+        "edition_count": 4,
+        "edition_key": [
+            "OL40163314M",
+            "OL46494948M",
+            "OL42767180M",
+            "OL46674029M"
+        ],
+        "publish_date": [
+            "2023"
+        ],
+        "publish_year": [
+            2023
+        ],
+        "first_publish_year": 2023,
+        "number_of_pages_median": 382,
+        "isbn": [
+            "1955825548",
+            "1955825491",
+            "9781955825542",
+            "9781955825498",
+            "9781955825474",
+            "1955825475",
+            "1955825262",
+            "9781955825269"
+        ],
+        "last_modified_i": 1676631400,
+        "ebook_count_i": 0,
+        "ebook_access": "no_ebook",
+        "has_fulltext": false,
+        "public_scan_b": false,
+        "readinglog_count": 31,
+        "want_to_read_count": 28,
+        "currently_reading_count": 3,
+        "already_read_count": 0,
+        "cover_edition_key": "OL46494948M",
+        "cover_i": 13265439,
+        "publisher": [
+            "Caskara Press"
+        ],
+        "language": [
+            "eng"
+        ],
+        "author_key": [
+            "OL7296452A"
+        ],
+        "author_name": [
+            "Cassie Alexander"
+        ],
+        "subject": [
+            "Fiction, romance, general",
+            "Fiction, fantasy, general"
+        ],
+        "publisher_facet": [
+            "Caskara Press"
+        ],
+        "subject_facet": [
+            "Fiction, fantasy, general",
+            "Fiction, romance, general"
+        ],
+        "_version_": 1759779689828712400,
+        "author_facet": [
+            "OL7296452A Cassie Alexander"
+        ],
+        "subject_key": [
+            "fiction_fantasy_general",
+            "fiction_romance_general"
+        ]
+    },
+    {
+        "key": "/works/OL34422903W",
+        "type": "work",
+        "seed": [
+            "/books/OL46693811M",
+            "/books/OL46752912M",
+            "/books/OL46693802M",
+            "/books/OL46740957M",
+            "/works/OL34422903W",
+            "/subjects/fiction_science_fiction_general",
+            "/subjects/fiction_fantasy_general",
+            "/authors/OL7803970A"
+        ],
+        "title": "Snail's Pace",
+        "title_suggest": "Snail's Pace",
+        "title_sort": "Snail's Pace",
+        "edition_count": 4,
+        "edition_key": [
+            "OL46693811M",
+            "OL46752912M",
+            "OL46693802M",
+            "OL46740957M"
+        ],
+        "publish_date": [
+            "2023"
+        ],
+        "publish_year": [
+            2023
+        ],
+        "first_publish_year": 2023,
+        "number_of_pages_median": 122,
+        "isbn": [
+            "9781959804376",
+            "9781959804390",
+            "1959804391",
+            "1959804383",
+            "1959804367",
+            "1959804375",
+            "9781959804383",
+            "9781959804369"
+        ],
+        "last_modified_i": 1677246393,
+        "ebook_count_i": 0,
+        "ebook_access": "no_ebook",
+        "has_fulltext": false,
+        "public_scan_b": false,
+        "cover_edition_key": "OL46752912M",
+        "cover_i": 13342914,
+        "publisher": [
+            "Water Dragon Publishing",
+            "Paper Angel Press"
+        ],
+        "language": [
+            "eng"
+        ],
+        "author_key": [
+            "OL7803970A"
+        ],
+        "author_name": [
+            "Susan McDonough-Wachtman"
+        ],
+        "subject": [
+            "Fiction, science fiction, general",
+            "Fiction, fantasy, general"
+        ],
+        "publisher_facet": [
+            "Paper Angel Press",
+            "Water Dragon Publishing"
+        ],
+        "subject_facet": [
+            "Fiction, fantasy, general",
+            "Fiction, science fiction, general"
+        ],
+        "_version_": 1759789745750147000,
+        "author_facet": [
+            "OL7803970A Susan McDonough-Wachtman"
+        ],
+        "subject_key": [
+            "fiction_fantasy_general",
+            "fiction_science_fiction_general"
+        ]
+    },
+    {
+        "key": "/works/OL34458265W",
+        "type": "work",
+        "seed": [
+            "/books/OL46775726M",
+            "/books/OL46764022M",
+            "/books/OL46740334M",
+            "/works/OL34458265W",
+            "/subjects/fiction_fantasy_general",
+            "/authors/OL9663959A"
+        ],
+        "title": "Concrete Chaos",
+        "title_suggest": "Concrete Chaos",
+        "title_sort": "Concrete Chaos",
+        "edition_count": 3,
+        "edition_key": [
+            "OL46775726M",
+            "OL46764022M",
+            "OL46740334M"
+        ],
+        "publish_date": [
+            "2023"
+        ],
+        "publish_year": [
+            2023
+        ],
+        "first_publish_year": 2023,
+        "isbn": [
+            "9781951641603",
+            "9781951641597",
+            "1951641590",
+            "9781951641894",
+            "1951641604",
+            "1951641892"
+        ],
+        "last_modified_i": 1680822229,
+        "ebook_count_i": 0,
+        "ebook_access": "no_ebook",
+        "has_fulltext": false,
+        "public_scan_b": false,
+        "readinglog_count": 0,
+        "want_to_read_count": 0,
+        "currently_reading_count": 0,
+        "already_read_count": 0,
+        "cover_edition_key": "OL46764022M",
+        "cover_i": 13849515,
+        "publisher": [
+            "MSE Publishing, LLC"
+        ],
+        "language": [
+            "eng"
+        ],
+        "author_key": [
+            "OL9663959A"
+        ],
+        "author_name": [
+            "Michael-Scott Earle"
+        ],
+        "subject": [
+            "Fiction, fantasy, general"
+        ],
+        "publisher_facet": [
+            "MSE Publishing, LLC"
+        ],
+        "subject_facet": [
+            "Fiction, fantasy, general"
+        ],
+        "_version_": 1762469852584345600,
+        "author_facet": [
+            "OL9663959A Michael-Scott Earle"
+        ],
+        "subject_key": [
+            "fiction_fantasy_general"
+        ]
+    },
+    {
+        "key": "/works/OL29160456W",
+        "type": "work",
+        "seed": [
+            "/books/OL40171539M",
+            "/books/OL40131277M",
+            "/books/OL40111916M",
+            "/works/OL29160456W",
+            "/subjects/fiction_fantasy_general",
+            "/authors/OL2827545A"
+        ],
+        "title": "Collected Enchantments",
+        "title_suggest": "Collected Enchantments",
+        "title_sort": "Collected Enchantments",
+        "edition_count": 3,
+        "edition_key": [
+            "OL40171539M",
+            "OL40131277M",
+            "OL40111916M"
+        ],
+        "publish_date": [
+            "2023"
+        ],
+        "publish_year": [
+            2023
+        ],
+        "first_publish_year": 2023,
+        "number_of_pages_median": 436,
+        "isbn": [
+            "9781732644076",
+            "1732644071",
+            "173264408X",
+            "9781956522020",
+            "9781732644083",
+            "1956522026"
+        ],
+        "last_modified_i": 1679083633,
+        "ebook_count_i": 0,
+        "ebook_access": "no_ebook",
+        "has_fulltext": false,
+        "public_scan_b": false,
+        "readinglog_count": 0,
+        "want_to_read_count": 0,
+        "currently_reading_count": 0,
+        "already_read_count": 0,
+        "cover_edition_key": "OL40111916M",
+        "cover_i": 13574232,
+        "publisher": [
+            "Mythic Delirium Books"
+        ],
+        "language": [
+            "eng"
+        ],
+        "author_key": [
+            "OL2827545A"
+        ],
+        "author_name": [
+            "Theodora Goss"
+        ],
+        "subject": [
+            "Fiction, fantasy, general"
+        ],
+        "publisher_facet": [
+            "Mythic Delirium Books"
+        ],
+        "subject_facet": [
+            "Fiction, fantasy, general"
+        ],
+        "_version_": 1760646802747424800,
+        "author_facet": [
+            "OL2827545A Theodora Goss"
+        ],
+        "subject_key": [
+            "fiction_fantasy_general"
+        ]
+    },
+    {
+        "key": "/works/OL27916110W",
+        "type": "work",
+        "seed": [
+            "/books/OL46208266M",
+            "/books/OL46208260M",
+            "/books/OL38154427M",
+            "/works/OL27916110W",
+            "/subjects/fiction_fantasy_general",
+            "/authors/OL8340483A"
+        ],
+        "title": "What the Ravens Sing",
+        "title_suggest": "What the Ravens Sing",
+        "title_sort": "What the Ravens Sing",
+        "edition_count": 3,
+        "edition_key": [
+            "OL46208266M",
+            "OL46208260M",
+            "OL38154427M"
+        ],
+        "publish_date": [
+            "2023"
+        ],
+        "publish_year": [
+            2023
+        ],
+        "first_publish_year": 2023,
+        "number_of_pages_median": 480,
+        "isbn": [
+            "9781734559996",
+            "1734559993",
+            "1959050060",
+            "9781959050087",
+            "9781959050063",
+            "1959050087"
+        ],
+        "last_modified_i": 1680578585,
+        "ebook_count_i": 0,
+        "ebook_access": "no_ebook",
+        "has_fulltext": false,
+        "public_scan_b": false,
+        "readinglog_count": 1,
+        "want_to_read_count": 1,
+        "currently_reading_count": 0,
+        "already_read_count": 0,
+        "cover_edition_key": "OL46208266M",
+        "cover_i": 13820693,
+        "publisher": [
+            "Vaughan Woods Publishing"
+        ],
+        "language": [
+            "eng"
+        ],
+        "author_key": [
+            "OL8340483A"
+        ],
+        "author_name": [
+            "Jacquelyn Benson"
+        ],
+        "subject": [
+            "Fiction, fantasy, general"
+        ],
+        "publisher_facet": [
+            "Vaughan Woods Publishing"
+        ],
+        "subject_facet": [
+            "Fiction, fantasy, general"
+        ],
+        "_version_": 1762214375464108000,
+        "author_facet": [
+            "OL8340483A Jacquelyn Benson"
+        ],
+        "subject_key": [
+            "fiction_fantasy_general"
+        ]
+    },
+    {
+        "key": "/works/OL29177278W",
+        "type": "work",
+        "seed": [
+            "/books/OL40133268M",
+            "/books/OL40133269M",
+            "/books/OL40183511M",
+            "/works/OL29177278W",
+            "/subjects/fiction_horror",
+            "/subjects/fiction_fantasy_general",
+            "/authors/OL10792077A"
+        ],
+        "title": "Briardark",
+        "title_suggest": "Briardark",
+        "title_sort": "Briardark",
+        "edition_count": 3,
+        "edition_key": [
+            "OL40133268M",
+            "OL40133269M",
+            "OL40183511M"
+        ],
+        "publish_date": [
+            "2023"
+        ],
+        "publish_year": [
+            2023
+        ],
+        "first_publish_year": 2023,
+        "isbn": [
+            "9781959500025",
+            "1959500007",
+            "9781959500001",
+            "1959500015",
+            "1959500023",
+            "9781959500018"
+        ],
+        "last_modified_i": 1675512214,
+        "ebook_count_i": 0,
+        "ebook_access": "no_ebook",
+        "has_fulltext": false,
+        "public_scan_b": false,
+        "readinglog_count": 2,
+        "want_to_read_count": 2,
+        "currently_reading_count": 0,
+        "already_read_count": 0,
+        "cover_edition_key": "OL40133269M",
+        "cover_i": 13248837,
+        "publisher": [
+            "Compass & Fern"
+        ],
+        "language": [
+            "eng"
+        ],
+        "author_key": [
+            "OL10792077A"
+        ],
+        "author_name": [
+            "S. A. Harian"
+        ],
+        "subject": [
+            "Fiction, horror",
+            "Fiction, fantasy, general"
+        ],
+        "publisher_facet": [
+            "Compass & Fern"
+        ],
+        "subject_facet": [
+            "Fiction, fantasy, general",
+            "Fiction, horror"
+        ],
+        "_version_": 1759779326193041400,
+        "author_facet": [
+            "OL10792077A S. A. Harian"
+        ],
+        "subject_key": [
+            "fiction_fantasy_general",
+            "fiction_horror"
+        ]
+    },
+    {
+        "key": "/works/OL23029362W",
+        "type": "work",
+        "seed": [
+            "/books/OL30907528M",
+            "/books/OL48294971M",
+            "/books/OL42794389M",
+            "/works/OL23029362W",
+            "/subjects/young_adult_fiction_fantasy_historical",
+            "/authors/OL7935534A"
+        ],
+        "title": "These Violent Delights",
+        "title_sort": "These Violent Delights",
+        "title_suggest": "These Violent Delights",
+        "edition_count": 3,
+        "edition_key": [
+            "OL30907528M",
+            "OL48294971M",
+            "OL42794389M"
+        ],
+        "publish_date": [
+            "2023"
+        ],
+        "publish_year": [
+            2023
+        ],
+        "first_publish_year": 2023,
+        "number_of_pages_median": 496,
+        "isbn": [
+            "9781536480375",
+            "1665921765",
+            "1536480371",
+            "9781665921763",
+            "1534482776",
+            "9781534482777"
+        ],
+        "last_modified_i": 1687009230,
+        "ebook_count_i": 0,
+        "ebook_access": "no_ebook",
+        "has_fulltext": false,
+        "public_scan_b": false,
+        "readinglog_count": 4,
+        "want_to_read_count": 4,
+        "currently_reading_count": 0,
+        "already_read_count": 0,
+        "cover_edition_key": "OL30907528M",
+        "cover_i": 10507433,
+        "publisher": [
+            "McElderry Books, Margaret K.",
+            "Margaret K. McElderry Books"
+        ],
+        "language": [
+            "eng"
+        ],
+        "author_key": [
+            "OL7935534A"
+        ],
+        "author_name": [
+            "Chloe Gong"
+        ],
+        "subject": [
+            "Young adult fiction, fantasy, historical"
+        ],
+        "publisher_facet": [
+            "Margaret K. McElderry Books",
+            "McElderry Books, Margaret K."
+        ],
+        "subject_facet": [
+            "Young adult fiction, fantasy, historical"
+        ],
+        "_version_": 1769208160818561000,
+        "author_facet": [
+            "OL7935534A Chloe Gong"
+        ],
+        "subject_key": [
+            "young_adult_fiction_fantasy_historical"
+        ]
+    },
+    {
+        "key": "/works/OL34056752W",
+        "type": "work",
+        "seed": [
+            "/books/OL46123182M",
+            "/books/OL46118022M",
+            "/books/OL46120475M",
+            "/works/OL34056752W",
+            "/subjects/fiction_action_&_adventure",
+            "/subjects/fiction_fantasy_general",
+            "/authors/OL32958A"
+        ],
+        "title": "Chain of Braided Silver",
+        "title_suggest": "Chain of Braided Silver",
+        "title_sort": "Chain of Braided Silver",
+        "edition_count": 3,
+        "edition_key": [
+            "OL46123182M",
+            "OL46118022M",
+            "OL46120475M"
+        ],
+        "publish_date": [
+            "2023"
+        ],
+        "publish_year": [
+            2023
+        ],
+        "first_publish_year": 2023,
+        "number_of_pages_median": 584,
+        "isbn": [
+            "1636321208",
+            "9781636321202",
+            "9781636321219",
+            "1636321224",
+            "9781636321226",
+            "1636321216"
+        ],
+        "last_modified_i": 1675989026,
+        "ebook_count_i": 0,
+        "ebook_access": "no_ebook",
+        "has_fulltext": false,
+        "public_scan_b": false,
+        "cover_edition_key": "OL46120475M",
+        "cover_i": 13270239,
+        "publisher": [
+            "Book View Cafe"
+        ],
+        "language": [
+            "eng"
+        ],
+        "author_key": [
+            "OL32958A"
+        ],
+        "author_name": [
+            "Sherwood Smith"
+        ],
+        "subject": [
+            "Fiction, action & adventure",
+            "Fiction, fantasy, general"
+        ],
+        "publisher_facet": [
+            "Book View Cafe"
+        ],
+        "subject_facet": [
+            "Fiction, action & adventure",
+            "Fiction, fantasy, general"
+        ],
+        "_version_": 1759789175441195000,
+        "author_facet": [
+            "OL32958A Sherwood Smith"
+        ],
+        "subject_key": [
+            "fiction_action__adventure",
+            "fiction_fantasy_general"
+        ]
+    },
+    {
+        "key": "/works/OL34114699W",
+        "type": "work",
+        "seed": [
+            "/books/OL47483579M",
+            "/books/OL46258651M",
+            "/books/OL46206706M",
+            "/works/OL34114699W",
+            "/subjects/fiction_fantasy_general",
+            "/subjects/fiction_action_&_adventure",
+            "/authors/OL2674699A"
+        ],
+        "title": "Study of Poisons",
+        "title_suggest": "Study of Poisons",
+        "title_sort": "Study of Poisons",
+        "edition_count": 3,
+        "edition_key": [
+            "OL47483579M",
+            "OL46258651M",
+            "OL46206706M"
+        ],
+        "publish_date": [
+            "Apr 11, 2023",
+            "2023"
+        ],
+        "publish_year": [
+            2023
+        ],
+        "first_publish_year": 2023,
+        "number_of_pages_median": 378,
+        "isbn": [
+            "9781946381163",
+            "9781946381170",
+            "9781946381187",
+            "1946381160",
+            "1946381187",
+            "1946381179"
+        ],
+        "last_modified_i": 1681735503,
+        "ebook_count_i": 0,
+        "ebook_access": "no_ebook",
+        "has_fulltext": false,
+        "public_scan_b": false,
+        "readinglog_count": 0,
+        "want_to_read_count": 0,
+        "currently_reading_count": 0,
+        "already_read_count": 0,
+        "cover_edition_key": "OL46206706M",
+        "cover_i": 14092180,
+        "publisher": [
+            "Snyder, Maria V.",
+            "Maria V. Snyder"
+        ],
+        "language": [
+            "eng"
+        ],
+        "author_key": [
+            "OL2674699A"
+        ],
+        "author_name": [
+            "Maria V. Snyder"
+        ],
+        "subject": [
+            "Fiction, fantasy, general",
+            "Fiction, action & adventure"
+        ],
+        "publisher_facet": [
+            "Maria V. Snyder",
+            "Snyder, Maria V."
+        ],
+        "subject_facet": [
+            "Fiction, action & adventure",
+            "Fiction, fantasy, general"
+        ],
+        "_version_": 1763427488149536800,
+        "author_facet": [
+            "OL2674699A Maria V. Snyder"
+        ],
+        "subject_key": [
+            "fiction_action__adventure",
+            "fiction_fantasy_general"
+        ]
+    },
+    {
+        "key": "/works/OL28871012W",
+        "type": "work",
+        "seed": [
+            "/books/OL39787134M",
+            "/books/OL39736558M",
+            "/books/OL39686225M",
+            "/works/OL28871012W",
+            "/subjects/fiction_fantasy_general",
+            "/subjects/fiction_lgbtq+_gay",
+            "/authors/OL10671074A"
+        ],
+        "title": "Thorns of Chaos",
+        "title_suggest": "Thorns of Chaos",
+        "title_sort": "Thorns of Chaos",
+        "edition_count": 3,
+        "edition_key": [
+            "OL39787134M",
+            "OL39736558M",
+            "OL39686225M"
+        ],
+        "publish_date": [
+            "2023"
+        ],
+        "publish_year": [
+            2023
+        ],
+        "first_publish_year": 2023,
+        "number_of_pages_median": 403,
+        "isbn": [
+            "173480243X",
+            "9781734802429",
+            "9781734802436",
+            "1734802448",
+            "1734802421",
+            "9781734802443"
+        ],
+        "last_modified_i": 1681241008,
+        "ebook_count_i": 0,
+        "ebook_access": "no_ebook",
+        "has_fulltext": false,
+        "public_scan_b": false,
+        "readinglog_count": 0,
+        "want_to_read_count": 0,
+        "currently_reading_count": 0,
+        "already_read_count": 0,
+        "cover_edition_key": "OL39736558M",
+        "cover_i": 13900592,
+        "publisher": [
+            "Vyletra LLC"
+        ],
+        "language": [
+            "eng"
+        ],
+        "author_key": [
+            "OL10671074A"
+        ],
+        "author_name": [
+            "Jeremiah Cain"
+        ],
+        "subject": [
+            "Fiction, fantasy, general",
+            "Fiction, lgbtq+, gay"
+        ],
+        "publisher_facet": [
+            "Vyletra LLC"
+        ],
+        "subject_facet": [
+            "Fiction, fantasy, general",
+            "Fiction, lgbtq+, gay"
+        ],
+        "_version_": 1762908973499940900,
+        "author_facet": [
+            "OL10671074A Jeremiah Cain"
+        ],
+        "subject_key": [
+            "fiction_fantasy_general",
+            "fiction_lgbtq_gay"
+        ]
+    },
+    {
+        "key": "/works/OL34052493W",
+        "type": "work",
+        "seed": [
+            "/books/OL47133675M",
+            "/books/OL46114369M",
+            "/books/OL46111880M",
+            "/works/OL34052493W",
+            "/subjects/fiction_fantasy_general",
+            "/subjects/fiction_science_fiction_general",
+            "/authors/OL1394865A"
+        ],
+        "title": "The Sunlit Man",
+        "title_sort": "The Sunlit Man",
+        "title_suggest": "The Sunlit Man",
+        "edition_count": 3,
+        "edition_key": [
+            "OL47133675M",
+            "OL46114369M",
+            "OL46111880M"
+        ],
+        "publish_date": [
+            "2023"
+        ],
+        "publish_year": [
+            2023
+        ],
+        "first_publish_year": 2023,
+        "isbn": [
+            "9781938570391",
+            "1938570413",
+            "9781938570414",
+            "1938570391"
+        ],
+        "last_modified_i": 1686669970,
+        "ebook_count_i": 0,
+        "ebook_access": "no_ebook",
+        "has_fulltext": false,
+        "public_scan_b": false,
+        "readinglog_count": 0,
+        "want_to_read_count": 0,
+        "currently_reading_count": 0,
+        "already_read_count": 0,
+        "cover_edition_key": "OL47133675M",
+        "cover_i": 13528284,
+        "publisher": [
+            "Dragonsteel Entertainment, LLC",
+            "Dragonsteel"
+        ],
+        "language": [
+            "eng"
+        ],
+        "author_key": [
+            "OL1394865A"
+        ],
+        "author_name": [
+            "Brandon Sanderson"
+        ],
+        "author_alternative_name": [
+            "Sanderson  Brandon",
+            "BRANDON SANDERSON"
+        ],
+        "subject": [
+            "Fiction, fantasy, general",
+            "Fiction, science fiction, general"
+        ],
+        "publisher_facet": [
+            "Dragonsteel",
+            "Dragonsteel Entertainment, LLC"
+        ],
+        "subject_facet": [
+            "Fiction, fantasy, general",
+            "Fiction, science fiction, general"
+        ],
+        "_version_": 1768601657759760400,
+        "author_facet": [
+            "OL1394865A Brandon Sanderson"
+        ],
+        "subject_key": [
+            "fiction_fantasy_general",
+            "fiction_science_fiction_general"
+        ]
+    },
+    {
+        "key": "/works/OL28894482W",
+        "type": "work",
+        "seed": [
+            "/books/OL40188758M",
+            "/books/OL39753132M",
+            "/books/OL39719786M",
+            "/works/OL28894482W",
+            "/subjects/comics_&_graphic_novels_general",
+            "/subjects/fiction_fantasy_general",
+            "/authors/OL10695009A"
+        ],
+        "title": "The Monkey King",
+        "title_suggest": "The Monkey King",
+        "title_sort": "The Monkey King",
+        "edition_count": 3,
+        "edition_key": [
+            "OL40188758M",
+            "OL39753132M",
+            "OL39719786M"
+        ],
+        "publish_date": [
+            "2023"
+        ],
+        "publish_year": [
+            2023
+        ],
+        "first_publish_year": 2023,
+        "number_of_pages_median": 320,
+        "isbn": [
+            "1951719689",
+            "9781951719685",
+            "9781951719692",
+            "1951719697",
+            "195171976X",
+            "9781951719760"
+        ],
+        "last_modified_i": 1681852883,
+        "ebook_count_i": 0,
+        "ebook_access": "no_ebook",
+        "has_fulltext": false,
+        "public_scan_b": false,
+        "readinglog_count": 0,
+        "want_to_read_count": 0,
+        "currently_reading_count": 0,
+        "already_read_count": 0,
+        "cover_edition_key": "OL40188758M",
+        "cover_i": 14145473,
+        "publisher": [
+            "Magnetic Press"
+        ],
+        "language": [
+            "eng"
+        ],
+        "author_key": [
+            "OL10695009A"
+        ],
+        "author_name": [
+            "Chaiko"
+        ],
+        "subject": [
+            "Comics & graphic novels, general",
+            "Fiction, fantasy, general"
+        ],
+        "publisher_facet": [
+            "Magnetic Press"
+        ],
+        "subject_facet": [
+            "Comics & graphic novels, general",
+            "Fiction, fantasy, general"
+        ],
+        "_version_": 1763550571487297500,
+        "author_facet": [
+            "OL10695009A Chaiko"
+        ],
+        "subject_key": [
+            "comics__graphic_novels_general",
+            "fiction_fantasy_general"
+        ]
+    },
+    {
+        "key": "/works/OL28404744W",
+        "type": "work",
+        "seed": [
+            "/books/OL38906020M",
+            "/books/OL38906019M",
+            "/books/OL38906018M",
+            "/works/OL28404744W",
+            "/subjects/fiction_science_fiction_general",
+            "/subjects/fiction_fantasy_general",
+            "/authors/OL7313915A"
+        ],
+        "title": "Upon a Waking Dream",
+        "title_suggest": "Upon a Waking Dream",
+        "title_sort": "Upon a Waking Dream",
+        "edition_count": 3,
+        "edition_key": [
+            "OL38906020M",
+            "OL38906019M",
+            "OL38906018M"
+        ],
+        "publish_date": [
+            "2023"
+        ],
+        "publish_year": [
+            2023
+        ],
+        "first_publish_year": 2023,
+        "number_of_pages_median": 268,
+        "isbn": [
+            "1736779028",
+            "9781736779033",
+            "9781736779026",
+            "1736779044",
+            "1736779036",
+            "9781736779040"
+        ],
+        "last_modified_i": 1680671092,
+        "ebook_count_i": 0,
+        "ebook_access": "no_ebook",
+        "has_fulltext": false,
+        "public_scan_b": false,
+        "readinglog_count": 0,
+        "want_to_read_count": 0,
+        "currently_reading_count": 0,
+        "already_read_count": 0,
+        "cover_edition_key": "OL38906020M",
+        "cover_i": 13833485,
+        "publisher": [
+            "J. S. Bailey"
+        ],
+        "language": [
+            "eng"
+        ],
+        "author_key": [
+            "OL7313915A"
+        ],
+        "author_name": [
+            "J. S. Bailey"
+        ],
+        "subject": [
+            "Fiction, science fiction, general",
+            "Fiction, fantasy, general"
+        ],
+        "publisher_facet": [
+            "J. S. Bailey"
+        ],
+        "subject_facet": [
+            "Fiction, fantasy, general",
+            "Fiction, science fiction, general"
+        ],
+        "_version_": 1762311372921634800,
+        "author_facet": [
+            "OL7313915A J. S. Bailey"
+        ],
+        "subject_key": [
+            "fiction_fantasy_general",
+            "fiction_science_fiction_general"
+        ]
+    },
+    {
+        "key": "/works/OL31140751W",
+        "type": "work",
+        "seed": [
+            "/books/OL42768597M",
+            "/books/OL42768586M",
+            "/works/OL31140751W",
+            "/subjects/fiction_fantasy_general",
+            "/authors/OL9827868A"
+        ],
+        "title": "Changeling",
+        "title_suggest": "Changeling",
+        "title_sort": "Changeling",
+        "edition_count": 2,
+        "edition_key": [
+            "OL42768597M",
+            "OL42768586M"
+        ],
+        "publish_date": [
+            "2023"
+        ],
+        "publish_year": [
+            2023
+        ],
+        "first_publish_year": 2023,
+        "isbn": [
+            "1735650552",
+            "9781735650548",
+            "1735650544",
+            "9781735650555"
+        ],
+        "last_modified_i": 1675285843,
+        "ebook_count_i": 0,
+        "ebook_access": "no_ebook",
+        "has_fulltext": false,
+        "public_scan_b": false,
+        "cover_edition_key": "OL42768586M",
+        "cover_i": 13199274,
+        "publisher": [
+            "Wizard Cabin Books"
+        ],
+        "language": [
+            "eng"
+        ],
+        "author_key": [
+            "OL9827868A"
+        ],
+        "author_name": [
+            "Mareth Griffith"
+        ],
+        "subject": [
+            "Fiction, fantasy, general"
+        ],
+        "publisher_facet": [
+            "Wizard Cabin Books"
+        ],
+        "subject_facet": [
+            "Fiction, fantasy, general"
+        ],
+        "_version_": 1759783419523367000,
+        "author_facet": [
+            "OL9827868A Mareth Griffith"
+        ],
+        "subject_key": [
+            "fiction_fantasy_general"
+        ]
+    }
+]
 }
 

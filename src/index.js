@@ -59,6 +59,8 @@ function hideLoading() {
 
 
 
+
+
 home.addEventListener('click', () => {
   supriseMe.className = "hidden"
   newReleases.className = "hidden"

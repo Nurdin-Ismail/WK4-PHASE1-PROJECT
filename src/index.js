@@ -294,10 +294,21 @@ function renderNewBooks(booksArray){
 
 
                         </div>
+                        
                         <div>
                             <p><span style="font-weight: 700;">Title: </span>${book.title}</p>
                             
                             <p> <span style="font-weight: 700;">Author: </span>${book.author_name[0]}</p>
+
+                            <p> <span style="font-weight: 700;">Rate?: </span></p>
+
+                            <div class="rating">
+                               <input type="radio" id="star5" name="rating" value="5" /><label for="star5"></label>
+                               <input type="radio" id="star4" name="rating" value="4" /><label for="star4"></label>
+                               <input type="radio" id="star3" name="rating" value="3" /><label for="star3"></label>
+                               <input type="radio" id="star2" name="rating" value="2" /><label for="star2"></label>
+                               <input type="radio" id="star1" name="rating" value="1" /><label for="star1"></label>
+                            </div> 
 
 
                         </div>
@@ -330,6 +341,15 @@ function renderNewBooks(booksArray){
                             <p><span style="font-weight: 700;">Title: </span>${book.title}</p>
                             
                             <p> <span style="font-weight: 700;">Author: </span>${book.author_name[0]}</p>
+                            <p> <span style="font-weight: 700;">Rate?: </span></p>
+
+                            <div class="rating">
+                               <input type="radio" id="star5" name="rating" value="5" /><label for="star5"></label>
+                               <input type="radio" id="star4" name="rating" value="4" /><label for="star4"></label>
+                               <input type="radio" id="star3" name="rating" value="3" /><label for="star3"></label>
+                               <input type="radio" id="star2" name="rating" value="2" /><label for="star2"></label>
+                               <input type="radio" id="star1" name="rating" value="1" /><label for="star1"></label>
+                            </div>
 
                         </div>
                   </div>
@@ -366,14 +386,24 @@ function renderNewBooks(booksArray){
                             <p><span style="font-weight: 700;">Title: </span>${book.title}</p>
                             
                             <p> <span style="font-weight: 700;">Author: </span>${book.author_name[0]}</p>
+                            <p> <span style="font-weight: 700;">Rate?: </span></p>
+
+                            <div class="rating">
+                               <input type="radio" id="star5" name="rating" value="5" /><label for="star5"></label>
+                               <input type="radio" id="star4" name="rating" value="4" /><label for="star4"></label>
+                               <input type="radio" id="star3" name="rating" value="3" /><label for="star3"></label>
+                               <input type="radio" id="star2" name="rating" value="2" /><label for="star2"></label>
+                               <input type="radio" id="star1" name="rating" value="1" /><label for="star1"></label>
+                            </div>
 
                         </div>
                   </div>
       
       `
     })
-
+let i = 0
     div2.forEach(book => {
+      
       cover = getCoverImageUrl(book)
       let bookdiv = document.createElement('div');
       secondbooksdiv.appendChild(bookdiv)
@@ -389,10 +419,23 @@ function renderNewBooks(booksArray){
                             
                             <p> <span style="font-weight: 700;">Author: </span>${book.author_name[0]}</p>
 
+                            <p> <span style="font-weight: 700;">Rate?: </span></p>
+                            
+
+
+                            <div class="rating${i}">
+                               <input type="radio" id="star5" name="rating" value="5" /><label for="star5"></label>
+                               <input type="radio" id="star4" name="rating" value="4" /><label for="star4"></label>
+                               <input type="radio" id="star3" name="rating" value="3" /><label for="star3"></label>
+                               <input type="radio" id="star2" name="rating" value="2" /><label for="star2"></label>
+                               <input type="radio" id="star1" name="rating" value="1" /><label for="star1"></label>
+                            </div>
+
                         </div>
                   </div>
       
-      `
+      ` 
+      i++
     })
   }
 }
@@ -540,4 +583,13 @@ function getCoverImageUrl(book){
    const coverUrl = `https://covers.openlibrary.org/b/id/${book.cover_i}-M.jpg`
    return coverUrl
 }
+})
+
+
+///stars
+
+const stars = document.querySelector(".stars i")
+
+star.forEach('click',() => {
+  console.log(star)
 })

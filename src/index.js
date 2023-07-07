@@ -302,7 +302,7 @@ function renderNewBooks(booksArray){
       bookdiv.innerHTML = ` 
                   <div class="bookdiv">
                         <div>
-                            <img src="${cover}" alt="" class="imeji">
+                            <img src="${cover}" alt="" class="imeji" class="image">
 
 
                         </div>
@@ -339,7 +339,7 @@ function renderNewBooks(booksArray){
       bookdiv.innerHTML = ` 
                   <div class="bookdiv">
                         <div>
-                            <img src="${cover}" alt="" class="imeji">
+                            <img src="${cover}" alt="" class="imeji" class="image">
 
 
                         </div>
@@ -354,18 +354,18 @@ function renderNewBooks(booksArray){
       
       `
 
-      let bookImage = document.getElementsByClassName('imeji');
-///adding mouseover event over it
-
-for(let ji = 0; ji < bookImage.length; ji++){
-
-  bookImage[ji].addEventListener('mouseover', () => {
-    console.log('heeeeeeeellllll yeeeeaaah')
-  })
-
-}
 
     })
+    let bookImage = document.getElementsByClassName('imeji');
+    ///adding mouseover event over it
+    
+    for(let ji = 0; ji < bookImage.length; ji++){
+    
+      bookImage[ji].addEventListener('mouseover', (e) => {
+        e.target.classList.add("img")
+      })
+    
+    }
 
     
 
@@ -387,7 +387,7 @@ for(let ji = 0; ji < bookImage.length; ji++){
       bookdiv.innerHTML = ` 
                   <div class="bookdiv">
                         <div>
-                            <img src="${cover}" alt="" class="imeji">
+                            <img src="${cover}" alt="" class="imeji" class="image">
 
 
                         </div>
@@ -412,7 +412,7 @@ for(let ji = 0; ji < bookImage.length; ji++){
       bookdiv.innerHTML = ` 
                   <div class="bookdiv">
                         <div>
-                            <img src="${cover}" alt="" class="imeji">
+                            <img src="${cover}" alt="" class="imeji" class="image">
 
 
                         </div>
@@ -439,7 +439,7 @@ for(let ji = 0; ji < bookImage.length; ji++){
 for(let ji = 0; ji < bookImage.length; ji++){
 
   bookImage[ji].addEventListener('mouseover', (e) => {
-    e.target.className = "img"
+    e.target.classList.add("img")
   })
 
 }

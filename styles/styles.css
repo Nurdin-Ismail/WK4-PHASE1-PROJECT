@@ -271,13 +271,28 @@ button:active {
     position: relative;
     max-width: 250px;
 }
-
-.img{
+.imeji{
     max-height: 150px;
     max-width: 100px;
     min-height: 150px;
     min-width: 100px;
 }
+.img{
+    max-height: 150px;
+    max-width: 100px;
+    min-height: 150px;
+    min-width: 100px;
+    
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 0 #c3b683;
+}
+
+.img:hover{
+    transform: rotateY(30deg) rotateX(5deg);
+    cursor:pointer;
+  }
+
+
 
 #loading {
     width: 2rem;
@@ -301,66 +316,3 @@ button:active {
     }
 }
 
-.rating {
-    width: 208px;
-    height: 40px;
-    margin: 0 auto;
-    padding: 2px 2px;
-    margin: 0px 10px;
-    border: 1px solid #ccc;
-    background: #f9f9f9;
-}
-.rating label {
-    float: right;
-    position: relative;
-    width: 33px;
-    height: 30px;
-    cursor: pointer;
-}
-.rating label:not(:first-of-type) {
-    padding-right: 5px;
-}
-.rating label:before {
-    content: "\2605";
-    font-size: 42px;
-    color: #ccc;
-    line-height: 1;
-}
-.rating input {
-    display: none;
-}
-.rating input:checked ~ label:before, .rating:not(:checked) > label:hover:before, .rating:not(:checked) > label:hover ~ label:before {
-    color: #f9df4a;
-}
-
-.rating0 {
-    width: 208px;
-    height: 40px;
-    margin: 0 auto;
-    padding: 2px 2px;
-    margin: 0px 10px;
-    border: 1px solid #ccc;
-    background: #f9f9f9;
-}
-.rating0 label {
-    float: right;
-    position: relative;
-    width: 33px;
-    height: 30px;
-    cursor: pointer;
-}
-.rating0 label:not(:first-of-type) {
-    padding-right: 5px;
-}
-.rating0 label:before {
-    content: "\2605";
-    font-size: 42px;
-    color: #ccc;
-    line-height: 1;
-}
-.rating0 input {
-    display: none;
-}
-.rating0 input:checked ~ label:before, .rating0:not(:checked) > label:hover:before, .rating0:not(:checked) > label:hover ~ label:before {
-    color: #f9df4a;
-}

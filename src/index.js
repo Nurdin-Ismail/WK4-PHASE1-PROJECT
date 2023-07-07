@@ -45,6 +45,12 @@ newReleases.className = "hidden"
 bestRated.className = "hidden"
 
 
+////book image
+
+
+
+
+
 
 ////Adding the loading feature:
 const loader = document.querySelector("#loading");
@@ -205,6 +211,9 @@ supriseMe.addEventListener('click',() => {
 ///function to handle,filter and sort the data
 
 function handleGenres(genre){
+  
+  
+  
   //initializing the array where the books will be placed
   let buug =[]
  
@@ -263,6 +272,9 @@ fetch(baseUrlo + endpoint + '?' + params)
       ////passing the filtered fetch data onto the rendering function.
       renderNewBooks(buug)
 })
+
+
+
 }
   
 
@@ -290,7 +302,7 @@ function renderNewBooks(booksArray){
       bookdiv.innerHTML = ` 
                   <div class="bookdiv">
                         <div>
-                            <img src="${cover}" alt="" class="img">
+                            <img src="${cover}" alt="" class="imeji">
 
 
                         </div>
@@ -307,6 +319,8 @@ function renderNewBooks(booksArray){
                   </div>
       
       `
+
+      
 
 
       
@@ -325,7 +339,7 @@ function renderNewBooks(booksArray){
       bookdiv.innerHTML = ` 
                   <div class="bookdiv">
                         <div>
-                            <img src="${cover}" alt="" class="img">
+                            <img src="${cover}" alt="" class="imeji">
 
 
                         </div>
@@ -339,6 +353,17 @@ function renderNewBooks(booksArray){
                   </div>
       
       `
+
+      let bookImage = document.getElementsByClassName('imeji');
+///adding mouseover event over it
+
+for(let ji = 0; ji < bookImage.length; ji++){
+
+  bookImage[ji].addEventListener('mouseover', () => {
+    console.log('heeeeeeeellllll yeeeeaaah')
+  })
+
+}
 
     })
 
@@ -362,7 +387,7 @@ function renderNewBooks(booksArray){
       bookdiv.innerHTML = ` 
                   <div class="bookdiv">
                         <div>
-                            <img src="${cover}" alt="" class="img">
+                            <img src="${cover}" alt="" class="imeji">
 
 
                         </div>
@@ -378,7 +403,7 @@ function renderNewBooks(booksArray){
       
       `
     })
-let i = 0
+
     div2.forEach(book => {
       
       cover = getCoverImageUrl(book)
@@ -387,7 +412,7 @@ let i = 0
       bookdiv.innerHTML = ` 
                   <div class="bookdiv">
                         <div>
-                            <img src="${cover}" alt="" class="img">
+                            <img src="${cover}" alt="" class="imeji">
 
 
                         </div>
@@ -405,8 +430,19 @@ let i = 0
                   </div>
       
       ` 
-      i++
+      
     })
+
+    let bookImage = document.getElementsByClassName('imeji');
+///adding mouseover event over it
+
+for(let ji = 0; ji < bookImage.length; ji++){
+
+  bookImage[ji].addEventListener('mouseover', (e) => {
+    e.target.className = "img"
+  })
+
+}
   }
 }
 //click events for the genrenavbar/buttons
@@ -560,6 +596,3 @@ function getCoverImageUrl(book){
 
 const stars = document.querySelector(".stars i")
 
-star.forEach('click',() => {
-  console.log(star)
-})
